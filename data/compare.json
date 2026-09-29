@@ -293,7 +293,7 @@
    "id": "peace",
    "titel": "When may a peace be broken?",
    "frage": "The rules for peace on both sides, and the peace of 1573.",
-   "note": "The League's capitulations forbid any confederate to treat with the Turk alone. Ebussuud's fetva of 1570 allows the Sultan to break a peace with the infidels when breaking it serves the Muslims better. In 1573 Venice broke the first, and Kâtip Çelebi records the result as an order to the Ottoman fleet: spare the lands of Venice, lay waste those of Spain.",
+   "note": "The League's capitulations forbid any confederate to treat with the Turk alone. Ebussuud's fetva of 1570 allows the Sultan to break a peace with the infidels when breaking it serves the Muslims better. In March 1573 Venice broke the first: Barbaro's articles give up Cyprus without naming it, by no longer paying its tribute, and the Sultan's capitulation accepts, his Porte 'open both to those who desire peace and to those who desire war'. Kâtip Çelebi records it as an order to the Ottoman fleet: spare the lands of Venice, lay waste those of Spain.",
    "voices": [
     {
      "text": "liga",
@@ -308,6 +308,21 @@
      "n": [
       3,
       4
+     ]
+    },
+    {
+     "text": "peace",
+     "sec": "barbaro",
+     "n": [
+      7
+     ]
+    },
+    {
+     "text": "peace",
+     "sec": "selim",
+     "n": [
+      2,
+      6
      ]
     },
     {

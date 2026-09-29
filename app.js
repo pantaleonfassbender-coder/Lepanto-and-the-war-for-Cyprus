@@ -83,11 +83,11 @@ function card(m) {
 function texts() {
   view.innerHTML = `
     <span class="tag">Texts</span><h1>The corpus</h1>
-    <p class="lede">Shipped modules can be read in full. Planned modules name their sources and wait their turn.</p>
+    <p class="lede">The collection is complete for this stage: ten modules, from the treaty of the League to the peace that ended it, with the Papacy, Venice, Spain and the Ottomans each in their own languages. The sources considered and left out are named below, with the reason.</p>
     <h2>Shipped</h2><div class="grid g2">${D.mods.shipped.map(card).join("")}</div>
-    <h2>Planned</h2><div class="grid g2">${D.mods.planned.map(m => `
-      <div class="card planned"><div>${side(m.side)} <span class="fine">planned</span></div>
-      <h3>${esc(m.kurz)}</h3><p class="fine">${esc(m.warum)}</p><p class="fine"><b>Source:</b> ${esc(m.quelle)}</p></div>`).join("")}</div>`;
+    <h2>Considered and not carried</h2><div class="grid g2">${D.mods.planned.map(m => `
+      <div class="card planned"><div>${side(m.side)} <span class="fine">not carried</span></div>
+      <h3>${esc(m.kurz)}</h3><p class="fine">${esc(m.grund || m.warum)}</p><p class="fine"><b>Source:</b> ${esc(m.quelle)}</p></div>`).join("")}</div>`;
 }
 
 async function reader([id, secId, unitN]) {
@@ -193,7 +193,7 @@ function timeline() {
 function plates() {
   view.innerHTML = `
     <span class="tag">Plates</span><h1>The faces of the war</h1>
-    <p class="lede">Portraits, a victory print and a medal from both sides of the war, as the nineteenth century reproduced them from sixteenth-century originals.</p>
+    <p class="lede">Portraits, a victory print and a medal from both sides of the war, as the nineteenth century reproduced them from sixteenth-century originals, and the map of the bay printed in Venice in 1572.</p>
     <div class="grid g4">${D.plates.plates.map(p => `
       <figure class="plate card"><a href="#" data-p="${p.id}"><img src="assets/plates/${p.id}_t.jpg" alt="${esc(p.titel)}"></a>
       <figcaption>${side(p.side)} <b>${esc(p.titel)}</b><br>${esc(p.caption)}<br><i>${esc(p.source)}</i></figcaption></figure>`).join("")}</div>

@@ -1,0 +1,154 @@
+{
+ "id": "peace",
+ "titel": "The Separate Peace of 1573",
+ "autor": "Marcantonio Barbaro (1518–1595) and the chancery of Selim II",
+ "jahr": "1573",
+ "sprache": "en",
+ "orig_sprache": "it",
+ "zk": "Peace",
+ "quelle": "J. Dumont, Corps universel diplomatique du droit des gens, vol. V, part 1 (Amsterdam and The Hague, 1728), no. CIII, pp. 218–220 ('La Scrittura del Clarissimo Marcantonio Barbaro circa i Capitoli della Pace', and 'Capitula Pacis … Capituli con Sultan Selim portati dal Clarissimo Ambasciadore Badoer'), both 'sur une copie manuscrite et ancienne'; Internet Archive corpsuniverseldi05dumo.",
+ "hinweis": "The end of the war, from the same collection of treaties as the League's capitulations. Venice made its peace alone, against the League's article that no confederate may treat with the Turk alone, and gave up Cyprus without naming it: it would simply no longer pay the Sultan the tribute for the island. The two texts are the Venetian and the Ottoman versions of the same articles, the second in the Italian of the Porte's chief dragoman, so that a reader can see where the wording differs, down to a disputed article preserved in five drafts and translations. The Italian is Dumont's, from old manuscript copies, corrected against the page images. The English is this site's working translation (CC0).",
+ "sections": [
+  {
+   "id": "barbaro",
+   "titel": "Barbaro's articles (Pera, 7 March 1573)",
+   "zk": "Peace Barbaro",
+   "blurb": "The Venetian text: three hundred thousand ducats, Sopot returned, the Zante tribute tripled, the old trading privileges confirmed, the Cyprus tribute no longer paid, the frontiers as before the war, the merchants' goods restored, Barbaro's oath on the Gospels, and the disputed frontier article in five versions.",
+   "units": [
+    {
+     "n": 1,
+     "orig": "La Scrittura del Clarissimo Marcantonio Barbaro circa i Capitoli della Pace. Al Nome di Dio in Pera a dì 7. di Marzo 1573.",
+     "en": "The writing of the most illustrious Marcantonio Barbaro concerning the articles of the peace. In the name of God, in Pera, 7 March 1573.",
+     "titel": "Barbaro's articles of peace",
+     "note": "Marcantonio Barbaro was the Venetian bailo, resident envoy, in Istanbul when the war began; he spent it under house arrest in Pera and negotiated the peace there in secret, while Venice was still bound by the League's article that no confederate could treat with the Turk alone (Liga Faith [6]). Dumont prints the text 'from an old manuscript copy'.",
+     "label": true
+    },
+    {
+     "n": 2,
+     "orig": "Marcantonio Barbaro Procurator di San Marco et Bailo per il Serenissimo Doge, il Signore Aloise Mocenigo et Serenissima Signoria di Vinetia appresso l'eccelsa Porta del Gran Signore Sultan Selim Han Figliolo di Sultan Suleiman Haan Imperatore di Mussolmani per la commissione et commandamento datomi dal detto Serenissimo Doge et Signoria di Vinetia hà fatta et conclusa la Pace con il detto Altissimo et potentissimo Gran Signore Sultan Selim Han con li sottoscritti Capitoli et prima.",
+     "en": "Marcantonio Barbaro, Procurator of San Marco and Bailo for the Most Serene Doge, Lord Alvise Mocenigo, and the Most Serene Signoria of Venice at the exalted Porte of the Great Lord Sultan Selim Han, son of Sultan Suleiman Han, Emperor of the Muslims, by the commission and command given me by the said Most Serene Doge and Signoria of Venice, has made and concluded the peace with the said most high and most mighty Great Lord Sultan Selim Han, with the articles written below; and first:",
+     "titel": "The peace concluded"
+    },
+    {
+     "n": 3,
+     "orig": "Che detta Serenissima Signoria di Vinetia debba pagare trecento mila Ducati all'eccelsa Porta del detto Gran Signore sì come fece al tempo della Pace con la buona memoria di Sultan Suleiman suo Padre con l'istesso modo et tempo che è dichiarato ne i Capitoli vecchi.",
+     "en": "That the said Most Serene Signoria of Venice must pay three hundred thousand ducats to the exalted Porte of the said Great Lord, as it did at the time of the peace with Sultan Suleiman of good memory, his father, in the same manner and at the same terms as are declared in the old articles.",
+     "titel": "Three hundred thousand ducats",
+     "note": "The peace of 1540, after the last war, had also cost Venice 300,000 ducats. The sum was paid in instalments over three years (Murad III's renewal of 1575 says it was not yet complete). The League's capitulations had set the cost of the war in sixths (Liga Money [3]); the peace had its own price."
+    },
+    {
+     "n": 4,
+     "orig": "Che detta Serenissima Signoria di Vinetia debba restituire il Castello di Soppoto con l'Artiglieria che vi era dentro quando fu preso, con questo che sia nell'arbitrio de gli habitanti del detto Castello chi vuole che possa restare, et chi non vuole possa con le sue Robbe andar dove li pare et piace senza che niuno l'impedisca.",
+     "en": "That the said Most Serene Signoria of Venice must restore the castle of Sopot with the artillery that was in it when it was taken; on condition that it be left to the choice of the inhabitants of the said castle, so that whoever wishes may stay, and whoever does not may go with his goods wherever he thinks fit and pleases, without anyone hindering him.",
+     "titel": "Sopot returned",
+     "note": "Sopot (Sopoto) in Albania was the one Venetian conquest of the war, taken in 1570. The article implies that Venice still held it in 1573, while Mehmed Bey in Contarini's council and Kâtip Çelebi count it among the Ottoman recoveries of 1571 (Contarini Council [13]; Tuhfe Lep. [2]); either the castle changed hands again or one account is wrong."
+    },
+    {
+     "n": 5,
+     "orig": "Che la detta Serenissima Signoria di Vinetia debba pagare all'eccelsa Porta del detto Gran Signore mille Ducati più all'Anno che delli cinquecento che per avanti pagava di pensione sopra l'Isola del Zante, i quali Ducati mille cinquecento debbano esser pagati al tempo ordinario.",
+     "en": "That the said Most Serene Signoria of Venice must pay to the exalted Porte of the said Great Lord a thousand ducats a year more than the five hundred it formerly paid as pension for the island of Zante; which fifteen hundred ducats must be paid at the usual time.",
+     "titel": "Zante",
+     "note": "Venice paid the Sultan a yearly tribute for Zante, which it held; the peace tripled it."
+    },
+    {
+     "n": 6,
+     "orig": "Che il detto Gran Signore Sultan Selim Han ci debba mantenere tutti i Capitoli et commandamenti havuti con la buona memoria di Sultan Suleiman Han, et la detta Serenissima Signoria di Vinetia rinuovatisi dal detto Sultan Selin Han quando per la gratia di Dio fu creato nuovo Imperatore dopo la Morte di Sultan Suleiman suo Padre.",
+     "en": "That the said Great Lord Sultan Selim Han must maintain for us all the articles and commands had from Sultan Suleiman Han of good memory, and renewed to the said Most Serene Signoria of Venice by the said Sultan Selim Han when by the grace of God he was made the new Emperor after the death of Sultan Suleiman his father.",
+     "titel": "The old capitulations confirmed",
+     "note": "The commercial privileges of the Venetians in the Ottoman Empire, the reason Venice needed the peace."
+    },
+    {
+     "n": 7,
+     "orig": "Che li ottanta mila Ducati che pagava la Serenissima Signoria di Vinetia d'Anno in anno che più non li debba pagare, i quali ottanta mila Ducati essa pagava per l'Isola di Cipro.",
+     "en": "That the eighty thousand ducats that the Most Serene Signoria of Venice paid year by year it shall no longer pay; which eighty thousand ducats it paid for the island of Cyprus.",
+     "titel": "Cyprus",
+     "note": "This is the article by which Venice gave up Cyprus: it never names the cession. Venice had paid the Sultan, as heir of the Mamluk sultans of Egypt, a yearly tribute for the island; if there is no tribute, there is no Venetian Cyprus. The 'right of the Soldan of Egypt' is how Selim's envoy had claimed the island in 1570 (Fam. Cyp. [5]). Dumont's copy reads 'ottanta mila', eighty thousand; the Ottoman text that follows, and other sources, give eight thousand, which was the tribute (Peace Selim [6])."
+    },
+    {
+     "n": 8,
+     "orig": "Che le Terre che si possiedono al presente dal detto Gran Signore, et dalla Serenissima Signoria così in Albania, come nella Dalmatia debbano essere reintegrate de tutti i loro Confini et Ville sì come stavano avanti il romper della Pace così debbano essere al presente et per questo conto da ambe le Parti si debba mandar commandamento alli Governatori di dette Terre che così facciano.",
+     "en": "That the lands now held by the said Great Lord and by the Most Serene Signoria, both in Albania and in Dalmatia, must be restored with all their borders and villages as they stood before the breaking of the peace, and so must they be at present; and for this purpose both parties must send orders to the governors of the said lands to do so.",
+     "titel": "The frontiers in Albania and Dalmatia",
+     "note": "The return to the frontiers before the war means that the Ottoman conquests of 1571 on the Adriatic, Dulcigno and Antivari (Tuhfe Lep. [2]), stayed Ottoman: they had not been Venetian 'before the breaking of the peace'. The wording of this article was disputed (Peace Barbaro [10])."
+    },
+    {
+     "n": 9,
+     "orig": "Che alli Mercanti d'ambe le Parti così à quelli che avanti che si rompesse la Pace si ritrovavano nell'Imperio del Gran Signore come à quelli che si sono ritrovati nel Dominio della detta Serenissima Signoria di Vinetia debbano esser restituite le Robbe, Mercantie et Navilii loro, et se per sorte si trovassero vendute ò smarrite alcune delle loro cose gli debba giustificando esser restituito il tratto delle cose vendute; et delle smarrite la conveniente valuta loro.\nPer l'osservanza delle quai tutte cose sua Imperial Maestà ne darà suo nobile commandamento con il suo giuramento et promissione et per confirmatione delli sopradetti Capitoli io Marcantonio Barbaro sopradetto per l'auttorità datami dal Serenissimo Doge et Signoria di Vinetia giuro et prometto all'omnipotente Dio et à Giesù Christo et à li santi Evangeli ch'essa Serenissima Signoria osservarà inviolabilmente et perfettamente la sopradetta Capitulatione et in fede delle verità sottoscriverò di mia man propria et la sigillarò col sigillo di San Marco.",
+     "en": "That to the merchants of both parties, both to those who before the breaking of the peace were in the Empire of the Great Lord and to those who were in the dominion of the said Most Serene Signoria of Venice, their goods, merchandise and ships must be restored; and if by chance any of their things are found to have been sold or lost, on proof the proceeds of the things sold must be restored to them, and for those lost their fair value.\nFor the observance of all which things His Imperial Majesty will give his noble command with his oath and promise; and in confirmation of the above articles I, the said Marcantonio Barbaro, by the authority given me by the Most Serene Doge and Signoria of Venice, swear and promise to Almighty God and to Jesus Christ and to the holy Gospels that the Most Serene Signoria will observe the above capitulation inviolably and perfectly; and in witness of the truth I will sign it with my own hand and seal it with the seal of San Marco.",
+     "titel": "The merchants",
+     "note": "The seizure of merchants and their goods in 1570 had been the first act of the war on both sides. The peace was about trade as much as territory."
+    },
+    {
+     "n": 10,
+     "orig": "Capitolo della difficoltà.\n[BADOARO] Et di più nell'Albania, et nel Paese della Schiavonia i Luoghi che al presente alcuni sono posseduti dalla nostra parte, et alcuni in mano della Serenissima Signoria di Vinetia li Confini et Ville delle Terre che sono in mano d'ambe le Parti siano possedute dall'uno et dall'altro così come erano avanti che si rompesse la Pace, et perche così sia dall'una, et l'altra parte alli Governatori di detti Paesi siano mandati commandamenti.\n[BARBARO] Che le Terre che si possiedono al presente dal detto Gran Signore et dalla Serenissima Signoria così in Albania come nella Dalmatia debbano essere reintegrate di tutti i loro Confini et Ville sì come stavano avanti il rompere della Pace così debbano essere al presente, et per questo conto d'ambe le Parti si debba mandar commandamento alli Governatori di dette Terre che così facciano.\n[SORANZO] Et alcuni Luoghi che sono nell'Albania et nella Dalmatia per essere entrati in potere di questa parte et alcuni per essere in mano della Signoria di Vinetia che gli antichi Confini et Ville delle Terre che sono in potere d'ambe le Parti come erano dominati avanti che fosse rotta la Pace siano dominati sempre à quell'istesso modo, et per questo negotio sia mandata da ambe le Parti commandamento.\nTradotti del Scassi. Che delli Luoghi che sono nelli Paesi della Schiavonia et Albania alcuni sono pervenuti in potere nostro et alcuni della Signoria di Vinetia. Gli antichi Confini et Ville delle Terre che sono in Dominio d'ambe le Parti siano possedute sempre in quel modo che solevano esser possedute avanti che fosse rotta la Pace siano sempre come eran prima dominati.\nTradotti per Marchio Spinelli. Et alcuni Luoghi d'Albania, et Dalmatia che hora sono pervenuti in potere da questa banda et alcuni sono in mano delli Signori di Vinetia gli antichi Confini et Ville delle Terre che sono in mani d'ambe le Parti sì come erano avanti la rotta della Pace siano sempre come erano prima dominati.",
+     "en": "The article of difficulty.\n[BADOARO] Furthermore, in Albania and in the country of Slavonia, of the places at present some are held by our side and some are in the hands of the Most Serene Signoria of Venice: let the borders and villages of the lands in the hands of both parties be held by the one and the other as they were before the peace was broken; and so that it be so on both sides, let orders be sent to the governors of the said countries.\n[BARBARO] That the lands now held by the said Great Lord and by the Most Serene Signoria, both in Albania and in Dalmatia, must be restored with all their borders and villages as they stood before the breaking of the peace, and so must they be at present; and for this purpose both parties must send orders to the governors of the said lands to do so.\n[SORANZO] And some places in Albania and Dalmatia, because they have come into the power of this side, and some because they are in the hands of the Signoria of Venice: that the ancient borders and villages of the lands in the power of both parties be always ruled in the same way as they were ruled before the peace was broken; and for this business let an order be sent by both parties.\nTranslated by Scassi. That of the places in the countries of Slavonia and Albania some have come into our power and some into that of the Signoria of Venice. Let the ancient borders and villages of the lands in the dominion of both parties always be held in the way they used to be held before the peace was broken; let them always be ruled as they were before.\nTranslated by Marchio Spinelli. And some places of Albania and Dalmatia which have now come into the power of this side, and some are in the hands of the lords of Venice: let the ancient borders and villages of the lands in the hands of both parties, as they were before the breaking of the peace, always be ruled as they were before.",
+     "titel": "The disputed article, in five versions",
+     "note": "A window on how a peace was made across two languages. The article on the Adriatic frontier is given in the drafts attached to three Venetian negotiators, Badoaro, Barbaro and Soranzo (the names stand in Dumont's margin), and in two translations of the Ottoman wording by the dragomans Scassi and Spinelli. The question behind the words: whether 'as before the breaking of the peace' returns the places each side had taken, or only the old borders of what each now held. Andrea Badoer was the envoy sent from Venice to conclude the peace; Jacopo Soranzo carried its renewal to Murad III in 1575."
+    }
+   ]
+  },
+  {
+   "id": "selim",
+   "titel": "Selim II's capitulation (Istanbul, 7 March 1573)",
+   "zk": "Peace Selim",
+   "blurb": "The same peace from the Sultan's chancery, in the dragoman Hürrem's Italian: the Porte open to those who want peace as to those who want war, the same articles in the Sultan's words, and his oath by God and the Prophet, on condition that Venice give no help to his enemies by sea or land.",
+   "units": [
+    {
+     "n": 1,
+     "orig": "In Nomine Individuae Trinitatis Patris et Filii et Spiritus Sancti Amen.\nCapitula Pacis confectae inter Serenissimum Othomanorum Imperatorem et Eccellentissimum Dominium Venetiarum.\nCapituli con Sultan Selim portati dal Clarissimo Ambasciadore Badoer.",
+     "en": "In the name of the undivided Trinity, Father, Son and Holy Spirit, Amen.\nArticles of the peace made between the Most Serene Emperor of the Ottomans and the Most Excellent Dominion of the Venetians.\nArticles with Sultan Selim, brought by the most illustrious Ambassador Badoer.",
+     "titel": "The Sultan's capitulation",
+     "note": "Dumont's note: 'This treaty of peace is the same as the preceding one, with this difference, that the first was drawn up by the ambassadors of the Republic of Venice, whereas this one was drawn up on the part of the Grand Seigneur.' The Christian invocation is the Venetian copyist's heading; the text below is the Sultan's ahdname in the Venetian dragoman's Italian.",
+     "label": true
+    },
+    {
+     "n": 2,
+     "orig": "Doppò l'aiuto di Dio il mio commandamento è questo che con la gratia del puro et sommo Idio et con la miracolosa augumentatione del Principe delli Santi Mehemet Mustafa che il saluto di Dio sia sempre sopra di lui; Io che sono Imperatore delli Imperatori donator di Corone alli Principi di questi tempi che sono sopra la Terra Sultan Selin Han Figliolo di Sultan Suleiman Han Figliolo di Sultan Selin Han. Gli Amati frà i Grandi Signori Christiani à cui vengono li potenti della generatione credenti al Messia compositori delle cause di tutti i Nazareni il Doge et Signoria di Venetia che tutti i fini delli loro affari siano attirati. Il bisognosissimo infra li Signori delle generationi credenti al Messia che alla mia felice Porta nel servitio di Bailo risiede Marcantonio Barbaro honorato, et pregiato huomo loro da parte di detti Signori di nuovo hà negotiato per conto della Pace et Accordo, et facendone segno et notificatione per questo conto, et mandata alla mia eccelsa Porta una Lettera scritta et bollata di sua propria mano, et essendo la nostra felice Porta con l'aiuto di Dio scopertamente aperta così à quelli che desiderano la Pace come la Guerra seguendo la nostra Imperatoria, et felice usanza l'habbiamo accettata di tutti i Capitoli che il detto Bailo hà scritto. Il primo è questo.",
+     "en": "After the help of God, my command is this. By the grace of the pure and most high God and the miraculous increase of the Prince of the Saints, Mehmed Mustafa, God's greeting be always upon him: I who am Emperor of Emperors, giver of crowns to the princes of these times who are on the earth, Sultan Selim Han, son of Sultan Suleiman Han, son of Sultan Selim Han. The beloved among the great Christian lords, to whom the mighty of the generation of believers in the Messiah come, arbiters of the causes of all the Nazarenes, the Doge and Signoria of Venice, may all the ends of their affairs be well drawn. The most needful among the lords of the generations of believers in the Messiah, who resides at my happy Porte in the service of bailo, Marcantonio Barbaro, their honoured and esteemed man, has negotiated anew on behalf of the said lords concerning the peace and accord; and having given sign and notice of this, and sent to my exalted Porte a letter written and sealed with his own hand, and our happy Porte being, with God's help, openly open both to those who desire peace and to those who desire war, following our imperial and happy custom we have accepted it, with all the articles the said bailo has written. The first is this.",
+     "titel": "'Open to those who want peace, as to those who want war'",
+     "note": "The Sultan's titulature in the Venetian dragoman's Italian. 'Openly open both to those who desire peace and to those who desire war' is the formula of the Ottoman chancery; Kâtip Çelebi records the same peace as an act of grace to a Venice that asked pardon (Tuhfe 1572–73 [2])."
+    },
+    {
+     "n": 3,
+     "orig": "Che i detti Signori Venetiani secondo che nel tempo della buona memoria di Sultan Suleiman diedero trecento mila Ducati nel medesimo modo et ordine et tempo come nelli Capitoli vecchi è chiaro, gli daranno et de più gli daranno il Castello detto Soppoto con l'Artiglieria che vi era dentro quando fu preso, et de gli habitanti che sono dentro quelli che vorranno restino, et quelli che non vorranno con le loro Robbe, Beni et Figlioli et parenti vadano dove à loro piace senza che alcuno gli dia fastidio.",
+     "en": "That the said lords of Venice, as in the time of Sultan Suleiman of good memory they gave three hundred thousand ducats, will give them in the same manner, order and term as is clear in the old articles; and furthermore will give the castle called Sopot, with the artillery that was in it when it was taken; and of the inhabitants inside, those who wish may stay, and those who do not may go with their goods, property, children and kin wherever they please, without anyone troubling them.",
+     "titel": "The ducats and Sopot"
+    },
+    {
+     "n": 4,
+     "orig": "Et di più per l'Isola del Zante davano Ducati cinquecento, ma al presente crescendo mille Ducati di più secondo che gli hanno pagati nel tempo passato alla mia Eccelsa Porta mille et cinquecento Ducati pagaranno.\nEt di più la Capitulatione fatta dalla buona memoria di mio Padre che quando sentai sopra la felice, et Alta Sedia fu rinuovata et da noi accettata così quelli che in detta Capitulatione è scritto come le cose che sono nelli concessi commandamenti di nuovo confermo.",
+     "en": "And furthermore, for the island of Zante they gave five hundred ducats; but now, increasing it by a thousand ducats, they will pay to my exalted Porte fifteen hundred ducats, as they paid in the past.\nAnd furthermore, the capitulation made by my father of good memory, which was renewed and accepted by us when I sat upon the happy and high throne, I confirm anew, both what is written in the said capitulation and the matters in the commands granted.",
+     "titel": "Zante, and the old capitulation"
+    },
+    {
+     "n": 5,
+     "orig": "Et di più la Signoria di Vinetia per conto dell'Isola di Cipro li otto milia Ducati che d'Anno in Anno pagavano alla mia Felice Porta non li debbano più pagare.",
+     "en": "And furthermore, the Signoria of Venice shall no longer pay the eight thousand ducats that year by year they paid to my happy Porte on account of the island of Cyprus.",
+     "titel": "Cyprus: eight thousand ducats",
+     "note": "Eight thousand, not eighty thousand as in Dumont's copy of Barbaro's text (Peace Barbaro [7]). The Ottoman wording makes the point from the other side: the Sultan releases Venice from a tribute for an island that is now his. Selim had conquered Cyprus, in the words of Ebussuud's fetva, as a land 'formerly part of the Abode of Islam' (Peç. Cyprus [3])."
+    },
+    {
+     "n": 6,
+     "orig": "Et di più nell'Albania, et nelli Paesi della Schiavonia gli Luoghi che al presente alcuni sono posseduti della nostra parte, et alcuni in mano della Signoria di Vinetia li Confini et Ville delle Terre che sono in mano d'ambe le Parti siano possedute dall'una et l'altra così come erano avanti che si rompesse la Pace.\nEt perche così sia dall'una et l'altra banda alli Governatori di detti Paesi siano mandati commandamenti.\nEt di più alli Mercanti d'ambe le Parti che avanti che si rompesse la Pace così alli attinenti di questa parte come alli attinenti alla Signoria di Vinetia siano liberati et dati le Robbe, Mercantie et Navilii loro.\nEt se delli detti Mercanti fosse stata venduta la Mercantia overo smarrita giustificando delle vendute quanto sono state vendute gli siano dati li denari et delle smarrite quello che è il loro pregio gli sia dato.",
+     "en": "And furthermore, in Albania and in the countries of Slavonia, of the places at present some are held by our side and some are in the hands of the Signoria of Venice: let the borders and villages of the lands in the hands of both parties be held by the one and the other as they were before the peace was broken.\nAnd so that it be so on both sides, let orders be sent to the governors of the said countries.\nAnd furthermore, to the merchants of both parties from before the peace was broken, both those belonging to this side and those belonging to the Signoria of Venice, let their goods, merchandise and ships be released and given back.\nAnd if the merchandise of the said merchants has been sold or lost, on proof of what was sold for how much, let them be given the money, and for what was lost, let them be given its price.",
+     "titel": "Frontiers and merchants",
+     "note": "The frontier article here takes the wording of the draft attached to Badoaro (Peace Barbaro [10])."
+    },
+    {
+     "n": 7,
+     "orig": "Per tanto nella Lettera dataci dal Bailo da parte del Doge et Signoria di Venetia secondo tutti quei Capitoli ch'ella contiene accettando l'Accordo, questa Capitulatione Imperatoria hà data et commando che fino a tanto che dalla sudetta Signoria li Patti, Promesse et Pace saranno rispettate et osservate, et contrario alla promessa non faranno nuovo movimento per l'unità del purissimo sommo et Magno Idio et per l'honoranza del più stimato nel Cielo et nella Terra, et amato da Dio il felice nostro Profeta Mehemeth che il saluto di Dio sia sempre sopra di lui prometto et giuro che io ancora dall'Amicitia che è infra noi, et dalli Patti et dalle Promesse rivoltatione nè movimento alcuno mostrarò che fino à tanto che à quelli che sono Nemici alla nostra Felice Porta il Doge et la Signoria di Vinetia così per Mare come per Terra non daranno aiuto nè spalla, nè in fatti nè in parole di questa fatta Amicitia et Accordo, et pare che non si preterirà sì come si contiene nella Imperatoria Capitulatione vecchia così sia nota al Segno eccelso crederanno.",
+     "en": "Therefore, accepting the accord according to all the articles contained in the letter given us by the Bailo on behalf of the Doge and Signoria of Venice, this imperial capitulation has been given; and I command that as long as the pacts, promises and peace are respected and observed by the said Signoria, and they make no new move against the promise, by the unity of the most pure, most high and great God, and by the honour of the most esteemed in heaven and on earth and beloved of God, our happy Prophet Mehmed, God's greeting be always upon him, I promise and swear that I too will show no reversal or movement against the friendship that is between us, or against the pacts and promises; so long as the Doge and Signoria of Venice give no help or backing, by sea or by land, in deed or in word, to those who are enemies of our happy Porte, against this friendship and accord so made; and it seems that it will not be departed from, as is contained in the old imperial capitulation; so let it be known, and they will believe the exalted sign.",
+     "titel": "The oath",
+     "note": "The condition that ends the League: Venice may give 'no help or backing, by sea or by land, in deed or in word' to the Sultan's enemies, that is, to Spain and the Pope. The last clause is obscure in the translation and is rendered literally."
+    },
+    {
+     "n": 8,
+     "orig": "Data alli trè della Santa Luna di Zilcade dell'Anno 980. che sono alli sette di Marzo 1573. in Costantinopoli.\nTradotta per me Hurem Dragomano et Cavaliere della prima Legione di S. Altezza. L'Autentico è appresso il Magnifico Gran Cancelliero.",
+     "en": "Given on the third of the holy moon of Zilkade of the year 980, which is 7 March 1573, in Constantinople.\nTranslated by me, Hürrem, dragoman and horseman of the first corps of His Highness. The original is with the Magnificent Grand Chancellor.",
+     "titel": "Date and translator",
+     "note": "Hürrem Bey was a dragoman of the Porte; the peace passed through his Italian. The print reads 'di Tilca' for Zilkade (Dhu al-Qa'da). The next autumn the League's fleets did not sail; the Ottoman fleet did, and took La Goleta and Tunis the year after (Tuhfe Tunis [4]–[7])."
+    }
+   ]
+  }
+ ]
+}

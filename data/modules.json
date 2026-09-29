@@ -64,6 +64,15 @@
    "warum": "The Ottoman naval history of 1656, from the first Ottoman press (1729), in Ottoman Turkish with transliteration and a working translation: the League's fleet as the Ottomans counted it, Uluç Ali's warning against the galleasses and the lanterns, the Bloody Cape, the dead by name, a moral for commanders, the new fleet and a quarrel with Peçevî over who paid, and the Ottoman side of Modon (1572) and of Venice's peace (1573). And the end of the war in 1574: La Goleta stormed and blown up, the Bastion of Tunis taken."
   },
   {
+   "id": "peace",
+   "datei": "peace",
+   "line": "league",
+   "side": "venice",
+   "kurz": "The separate peace of 1573",
+   "zk": "Peace",
+   "warum": "The end of the war in both chancery versions of 7 March 1573, Italian with a working translation: Barbaro's articles for Venice and Selim II's capitulation in the dragoman's Italian. Three hundred thousand ducats, Sopot returned, the Zante tribute tripled, and Cyprus given up without being named: Venice will simply no longer pay the tribute for it. With a disputed frontier article in five drafts and translations."
+  },
+  {
    "id": "cervantes",
    "datei": "cervantes",
    "line": "reception",
@@ -89,7 +98,8 @@
    "side": "venice",
    "kurz": "The negotiations of 1570",
    "warum": "A Venetian account of the congregations in Rome from July to November 1570: Granvelle, Pacheco and Zúñiga for Spain, Cardinal Morone for the Pope, the Venetian ambassador fighting clause by clause over Barbary, perpetuity and money. Italian, with a working translation of selected sessions.",
-   "quelle": "'Négociations & Conclusioni della Lega contra il Turco … dell'Anno 1570', from an old manuscript copy, in J. Dumont, Corps universel diplomatique, vol. V, part 1 (1728), no. XCI, pp. 187–196; Internet Archive corpsuniverseldi05dumo."
+   "quelle": "'Négociations & Conclusioni della Lega contra il Turco … dell'Anno 1570', from an old manuscript copy, in J. Dumont, Corps universel diplomatique, vol. V, part 1 (1728), no. XCI, pp. 187–196; Internet Archive corpsuniverseldi05dumo.",
+   "grund": "Not carried: the League's own capitulations (Liga) and Herrera's and Contarini's councils already show the quarrels; the negotiation minutes of 1570 would add length rather than a new voice."
   },
   {
    "id": "memoria",
@@ -97,7 +107,8 @@
    "side": "league",
    "kurz": "Memoria della felicissima vittoria (1571)",
    "warum": "A news print of the victory, published in the weeks after the battle: how the news reached the public.",
-   "quelle": "Internet Archive bub_gb_zJ_APOa7Q7IC (1571)."
+   "quelle": "Internet Archive bub_gb_zJ_APOa7Q7IC (1571).",
+   "grund": "Not carried: an early Venetian pamphlet whose content is contained in Contarini's fuller history."
   },
   {
    "id": "knolles",
@@ -105,7 +116,8 @@
    "side": "reception",
    "kurz": "Richard Knolles, The Generall Historie of the Turkes (London, 1603)",
    "warum": "The English history of the Ottoman state, with a full account of the Cyprus war and the battle. Early modern English; the OCR needs repair (long s, running side notes).",
-   "quelle": "Internet Archive b30332989 (edition of 1638)."
+   "quelle": "Internet Archive b30332989 (edition of 1638).",
+   "grund": "Not carried: an English compilation of 1603 from printed Latin and Italian histories, without independent witness."
   },
   {
    "id": "relazioni",
@@ -113,7 +125,8 @@
    "side": "venice",
    "kurz": "Venetian ambassadors' reports from Constantinople",
    "warum": "The baili's reports to the Senate, the nearest thing to an inside view of the Ottoman court in these years, including the peace of 1573. Italian, with a working translation.",
-   "quelle": "E. Albèri, Relazioni degli ambasciatori veneti al Senato, series III (Florence, 1840–55), on the Internet Archive."
+   "quelle": "E. Albèri, Relazioni degli ambasciatori veneti al Senato, series III (Florence, 1840–55), on the Internet Archive.",
+   "grund": "Not carried: Barbaro's own peace is carried; the ambassadors' reports are long surveys of the Ottoman state rather than of this war."
   },
   {
    "id": "james",
@@ -121,7 +134,8 @@
    "side": "reception",
    "kurz": "James VI, Lepanto (Edinburgh 1591; London 1603)",
    "warum": "A protestant king's heroic poem on a Catholic victory, and his preface explaining why he wrote it.",
-   "quelle": "Early English Books scan on the Internet Archive (1603)."
+   "quelle": "Early English Books scan on the Internet Archive (1603).",
+   "grund": "Not carried: the reception line is represented by Herrera's song and Chesterton's ballad; a third poem would add little."
   },
   {
    "id": "ottoman",
@@ -129,7 +143,8 @@
    "side": "ottoman",
    "kurz": "More Ottoman voices",
    "warum": "Peçevî and Kâtip Çelebi are carried, from the fetva of 1570 to the fall of Tunis in 1574; the gap is narrower, not closed. Next candidates: Selânikî's chronicle, an eyewitness at the Porte, and the imperial orders of the Mühimme registers. Both without public-domain English, both to be carried in the same way: the printed Ottoman text, a transliteration and a working translation.",
-   "quelle": "Selânikî, Tarih (Istanbul 1281/1864); Mühimme registers in modern facsimile editions (copyright to be checked)."
+   "quelle": "Selânikî, Tarih (Istanbul 1281/1864); Mühimme registers in modern facsimile editions (copyright to be checked).",
+   "grund": "Not carried: Selânikî and the imperial orders of the Mühimme registers have no public-domain edition that could be checked page by page; Peçevî and Kâtip Çelebi carry the Ottoman side."
   }
  ]
 }
