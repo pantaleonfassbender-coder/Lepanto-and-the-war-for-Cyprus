@@ -56,6 +56,8 @@ figcaption{font-size:.85rem; color:var(--ink2); margin-top:.4rem}
 .unit.label .text{font-variant:small-caps; letter-spacing:.03em; font-weight:600; color:var(--red)}
 .unit h4{margin:0 0 .3rem; font-size:.95rem; color:var(--red)}
 .unit .text,.unit .orig{white-space:pre-line}
+.unit .orig[dir=rtl]{font-family:"Traditional Arabic","Sakkal Majalla","Noto Naskh Arabic","Geeza Pro",serif; font-size:1.3em; line-height:1.9; color:var(--ink)}
+.unit .translit{margin-top:.5rem; font-size:.88em; font-style:italic; color:var(--ink2)}
 .note{grid-column:2; font-size:.84rem; color:var(--ink2); border-left:2px solid var(--gold); padding-left:.6rem}
 .hinweis{font-size:.9rem}
 /* timeline */

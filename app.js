@@ -67,7 +67,7 @@ function overview() {
     <div class="panel"><h3>What did the victory buy?</h3>
       <p>The captive of <em>Don Quixote</em> calls it the day the world learned the Turks were not invincible at sea, and then tells how the chance was lost at Navarino, how Venice made its peace, how La Goleta fell. <a href="#/text/cervantes/captive">DQ I.39</a></p></div>
     <div class="panel"><h3>Who writes the war?</h3>
-      <p>A Venetian officer who sold himself as a slave to survive; an English protestant who translated him for the Earl of Leicester; a Spanish veteran writing fiction; an Edwardian balladeer. The Ottoman side speaks here only through them, a gap the <a href="#/sources">sources page</a> names.</p></div>
+      <p>A Venetian officer who sold himself as a slave to survive; an English protestant who translated him for the Earl of Leicester; a Spanish veteran writing fiction; an Edwardian balladeer; and an Ottoman historian, born three years after the battle, who walked the shore where it was fought (<a href="#/text/pecevi/battle">Peç. Battle</a>). The Ottoman side is still the thinner one, as the <a href="#/sources">sources page</a> says.</p></div>
     <div class="panel"><h3>What outlasts it?</h3>
       <p>Malim thinks letters outlast pyramids. Cervantes thinks a fortress's stones are not needed to keep a memory alive. The companion game <a href="https://la-mas-alta-ocasion.netlify.app/" target="_blank" rel="noopener"><em>La más alta ocasión</em></a> is built on these texts: you hold the League together as the Pope, and its accounting asks what the victory actually secured.</p></div>
   </div>`;
@@ -98,7 +98,7 @@ async function reader([id, secId, unitN]) {
   const sec = t.sections.find(s => s.id === secId) || t.sections[0];
   const bilingual = sec.units.some(u => u.orig);
   const lang = bilingual ? langPref : "en";
-  const origName = { la: "Latin", es: "Spanish", it: "Italian" }[t.orig_sprache] || "Original";
+  const origName = { la: "Latin", es: "Spanish", it: "Italian", ota: "Ottoman" }[t.orig_sprache] || "Original";
   view.innerHTML = `
     <p class="fine"><a href="#/texts">← All texts</a></p>
     <span class="tag">${side(m.side)} ${esc(t.jahr)} · cited as ${esc(sec.zk)} [n]</span>
@@ -121,7 +121,7 @@ async function reader([id, secId, unitN]) {
         <div class="num"><a href="#/text/${id}/${sec.id}/${u.n}" title="Cite as ${esc(sec.zk)} [${u.n}]">[${u.n}]</a></div>
         <div>${u.titel ? `<h4>${esc(u.titel)}</h4>` : ""}
           <div class="cols ${showO && showE ? "" : "one"}">
-            ${showO ? `<div class="orig" lang="${esc(t.orig_sprache)}">${esc(u.orig)}</div>` : ""}
+            ${showO ? `<div class="origcol"><div class="orig" lang="${esc(t.orig_sprache)}"${t.rtl ? ' dir="rtl"' : ""}>${esc(u.orig)}</div>${u.tr ? `<div class="translit" lang="ota-Latn">${esc(u.tr)}</div>` : ""}</div>` : ""}
             ${showE ? `<div class="text">${esc(u.en)}</div>` : ""}
           </div></div>
         ${u.note ? `<div class="note">${esc(u.note)}</div>` : ""}
@@ -181,7 +181,7 @@ function sources() {
     <p><b>OCR repaired against the page.</b> Texts come from digitised books. Where the machine reading fails, the text is corrected against the page image: the Latin of Malim's prayer was transcribed by eye, and where two scans of the same book differ, the cleaner one is used and the choice recorded in the build script.</p>
     <p><b>Spelling as printed.</b> Early modern English is left as the printing has it ("Iland", "souldiours"), and Latin keeps its printer's ligatures and accents.</p>
     <p><b>Working translations.</b> Where no public-domain English exists, the site gives its own working translation, marked as such and dedicated to the public domain (CC0). It is an aid to reading, not a critical translation.</p>
-    <p><b>The known imbalance.</b> The Ottoman side of this war has no public-domain English sources. Until that gap is filled, the Ottomans speak here only through Venetian, Spanish and English writers, whose hostility is part of the evidence. The Texts page names the options.</p>
+    <p><b>The known imbalance.</b> The Ottoman side of this war has no public-domain English sources. The site therefore carries the Ottoman texts themselves, transcribed by eye from the printed page (the OCR cannot read the type), with a transliteration and a working translation, rather than a European paraphrase. Peçevî's chapter on the battle is the first; until more follow, most of the war is still seen through Venetian, Spanish and English writers, whose hostility is part of the evidence. The Texts page names the next candidates.</p>
     <p><b>Dates.</b> The documents are followed; where modern accounts differ (the Famagusta dates are the main case), the timeline says so. England reckoned the new year from 25 March in 1572, as Malim notes in the margin of the report.</p>
     </div>
     <h2>Sources carried</h2>

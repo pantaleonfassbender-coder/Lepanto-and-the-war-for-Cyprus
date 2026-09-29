@@ -19,6 +19,15 @@
    "warum": "The siege seen from inside the walls by an officer who survived it, in the English of 1572: six assaults, the surrender on terms, the killings in Mustafa's tent, the flaying of Bragadin, the author's escape. With the translator's dedication, his description of Cyprus and his Latin prayer for the League."
   },
   {
+   "id": "pecevi",
+   "datei": "pecevi",
+   "line": "ottoman",
+   "side": "ottoman",
+   "kurz": "Peçevî: the rout of the imperial fleet",
+   "zk": "Peç.",
+   "warum": "The first Ottoman voice here, in Ottoman Turkish with transliteration and a working translation: the fleet sent out too early and short of men, a council of war in which the commander fears for his head, Uluç Ali tearing his beard, the flagship known by its three lanterns, the escape that made him Kılıç Ali, and the winter in which Sokollu promised anchors of silver and sails of satin."
+  },
+  {
    "id": "cervantes",
    "datei": "cervantes",
    "line": "reception",
@@ -106,9 +115,9 @@
    "id": "ottoman",
    "line": "ottoman",
    "side": "ottoman",
-   "kurz": "Ottoman voices",
-   "warum": "The site's acknowledged gap. The Ottoman chroniclers of the war (Selânikî, Peçevî) and the imperial orders of the Mühimme registers have no public-domain English translation. Options: a working translation from the printed Ottoman texts, or Hammer-Purgstall's German history of 1827–35, which paraphrases them, carried and labelled as a mediated voice. Until then the Ottoman side is seen only through Venetian, Spanish and English eyes, and every module says so.",
-   "quelle": "To be decided."
+   "kurz": "More Ottoman voices",
+   "warum": "Peçevî is carried; the gap is narrower, not closed. Next candidates: Kâtip Çelebi's naval history Tuhfetü'l-kibâr (Istanbul: Müteferrika, 1729), Peçevî's own chapter on the conquest of Cyprus, Selânikî's chronicle, and the imperial orders of the Mühimme registers, all without public-domain English, all to be carried as Peçevî is: the printed Ottoman text, a transliteration and a working translation.",
+   "quelle": "Kâtip Çelebi, Tuhfetü'l-kibâr (1729), Internet Archive McGillLibrary-104394-279; Tarih-i Peçevî vol. I (1866), Internet Archive tarihipeevi01peuoft."
   }
  ]
 }

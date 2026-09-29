@@ -1,0 +1,134 @@
+{
+ "id": "pecevi",
+ "titel": "Peçevî: The Rout of the Imperial Fleet",
+ "autor": "İbrahim Peçevî (1574–c. 1650)",
+ "jahr": "c. 1640 (printed 1866)",
+ "sprache": "en",
+ "orig_sprache": "ota",
+ "zk": "Peç.",
+ "quelle": "İbrahim Peçevî, Tarih-i Peçevî, vol. I (Istanbul: Matbaa-i Âmire, 1283/1866), pp. 495–499; Internet Archive tarihipeevi01peuoft (University of Toronto), leaves 14–10 (the scan runs back to front: printed page = 509 − leaf).",
+ "hinweis": "The first Ottoman voice in this apparatus. Peçevî, born in 1574 in Pécs, wrote his history in the 1640s from earlier chronicles and from what older men told him; he did not see the battle, but he visited its place. The Ottoman text is transcribed by eye from the page images of the 1866 print, since the OCR cannot read the type; the print has no punctuation, and the division into units is the site's. The transliteration follows the usual simplified Turkish scholarly style; it and the English are this site's working versions (CC0), not a critical edition. Uncertain readings are marked [?] in the transliteration and explained in the notes. The chapter speaks of 'infidels' and 'the people of Islam' as the Venetian and Spanish sources speak of 'Turks' and 'Christians': the words are the documents', not the site's.",
+ "rtl": true,
+ "sections": [
+  {
+   "id": "battle",
+   "titel": "The rout of the imperial fleet (pp. 495–498)",
+   "zk": "Peç. Battle",
+   "blurb": "Peçevî's account of Lepanto from the Ottoman side: the fleet sent out too early and short of men, the council of war at İnebahtı where Pertev Pasha and Uluç Ali counsel caution and the Kapudan Ali Pasha fears for his head, the flagship known by its three lanterns, the rout, and Uluç Ali's escape and renaming as Kılıç.",
+   "units": [
+    {
+     "n": 1,
+     "orig": "(انهزام دوننمای همایون)",
+     "tr": "(İnhizâm-ı donanma-yı hümâyûn)",
+     "en": "(The rout of the imperial fleet)",
+     "titel": "The rout of the imperial fleet",
+     "label": true
+    },
+    {
+     "n": 2,
+     "orig": "فی ۱۷ جمادی الاولی فی سنه ۹۷۹ دوننمای همایون قبریسدن عودت ایدوب ترسانهٔ عامره‌ده مهماتن تکمیل اوزره ایکن اولج علی پاشا دخی کندی‌یه مخصوص یکرمی قطعه چکدری کمیسیله کلوب ترسانه‌یه داخل اولدی و وزیر لانظیر مصطفی پاشا عسکر اسلام ایله هنوز ماغوسه قلعه‌سی فتحنه جل همت اوزره اولمغله مبادا کفار دوننماسی بزه تقدم ایدوب انده اولان عسکر اوزرینه کله‌لر دیو دوننمای همایونك بر کون مقدم اخراجنه سعی اولنوب وزیر ثانی پرتو پاشا سردار سپهسالار و مؤذن‌زاده لقبله اشتهار بولان قپودان علی پاشا کندی‌یه فرمان‌بردار و مشار الیه اولج علی پاشا دخی معیت ایله صرف اقتدار ایلمکه مأمور اولوب",
+     "tr": "Fî 17 Cemâziyelevvel fî sene 979. Donanma-yı hümâyûn Kıbrıs'dan avdet idüp Tersâne-i Âmire'de mühimmâtın tekmîl üzre iken Uluç Ali Paşa dahi kendüye mahsûs yigirmi kıt'a çekdiri gemisiyle gelüp tersâneye dâhil oldı. Ve vezîr-i lâ-nazîr Mustafa Paşa asker-i İslâm ile henüz Mağosa kal'esi fethine cell-i himmet üzre olmağla, mebâdâ küffâr donanması bize takaddüm idüp anda olan asker üzerine geleler deyü, donanma-yı hümâyûnun bir gün mukaddem ihrâcına sa'y olunup, vezîr-i sânî Pertev Paşa serdâr-ı sipehsâlâr, ve Mü'ezzinzâde lakabıyla iştihâr bulan Kapudan Ali Paşa kendüye fermân-berdâr, ve müşârün-ileyh Uluç Ali Paşa dahi ma'iyyet ile sarf-ı iktidâr eylemeğe me'mûr olup,",
+     "en": "On 17 Jumada I in the year 979. The imperial fleet had come back from Cyprus, and while its stores were being completed in the Imperial Arsenal, Uluç Ali Pasha too came in with twenty galleys of his own and entered the arsenal. And since the peerless vizier Mustafa Pasha, with the army of Islam, was still bending all his effort to the conquest of the fortress of Famagusta, every effort was made to send the imperial fleet out as early as possible, lest the fleet of the infidels forestall us and fall upon the army there. The second vizier Pertev Pasha was made commander-in-chief; the Kapudan Ali Pasha, known by the name Müezzinzade, was placed under his orders; and the said Uluç Ali Pasha too was ordered to put out his strength in their company;",
+     "titel": "The fleet sent out",
+     "note": "The date heading the chapter, 17 Jumada I 979, is 7 October 1571, the day of the battle. 'bir gün mukaddem', literally 'a day earlier', is taken here in its idiomatic sense 'as early as possible'."
+    },
+    {
+     "n": 3,
+     "orig": "و سنهٔ مزبوره‌ده روز نوروز غرهٔ صفر الخیرده واقع جمعه کونی ایدی پس یوم مزبورده استانبول لیماندن اوچیوزدن زیاده کمی ایله چیقوب طشره‌ده اولان امرا کمیلری و لوند قایقلری ایله درتیوزدن متجاوز اولوب صوب مقصوده متوجه و روان اولدیلر ولکن بو سنهٔ مبارکه‌ده دوننما معتاددن مقدمجه اخراج اولنمغله کورکجیسنده و جنکجیسنده کلی نقصان مقرر ایدی و بالجمله قبریسه واردیلر و لازم کلان معاونتی ایتدیلر اندن دریا حفظنه و کفار آطه‌لری جانبنه روانه اولدیلر و کفالونیه جزیره‌سنه اردوکوب غارت و خسارت ایتدیلر اندن بعض جزایره دخی لوند کمیلرینی کوندروب برر مقدار اغتنام ایتدیلر اندن کورفوس و پره‌وزه لیماننه کلدیلر اندن عودت ایدوب اینه‌بختی لیماننده لنکر اقامت صالدیلر",
+     "tr": "Ve sene-i mezbûrede rûz-ı Nevrûz ğurre-i Safer'ül-hayr'da vâki' cum'a güni idi. Pes yevm-i mezbûrda İstanbul limanından üçyüzden ziyâde gemi ile çıkup, taşrada olan ümerâ gemileri ve levend kayıkları ile dörtyüzden mütecâviz olup, savb-ı maksûda müteveccih ve revân oldılar. Velâkin bu sene-i mübârekede donanma mu'tâddan mukaddemce ihrâc olunmağla kürekçisinde ve cengçisinde küllî noksân mukarrer idi. Ve bi'l-cümle Kıbrıs'a vardılar ve lâzım gelen mu'âveneti itdiler. Andan deryâ hıfzına ve küffâr adaları cânibine revâne oldılar ve Kefalonya cezîresine [urdukub?] ğâret ve hasâret itdiler. Andan ba'z-ı cezâyire dahi levend gemilerini gönderüp birer mikdâr iğtinâm itdiler. Andan Korfos ve Preveze limanına geldiler. Andan avdet idüp İnebahtı limanında lenger-i ikâmet saldılar.",
+     "en": "In the said year the day of Nevruz fell on the first of Safar the Auspicious, a Friday. On that day they came out of the harbour of Istanbul with more than three hundred ships, and with the ships of the provincial governors and the boats of the levends they were more than four hundred, and they set their course for their goal. But because in this blessed year the fleet was sent out earlier than was customary, there was a great shortage of oarsmen and of fighting men. In short, they reached Cyprus and gave the help that was needed. From there they set out to guard the sea and toward the islands of the infidels; they fell upon the island of Cephalonia and plundered and laid it waste. They also sent the levend ships to some of the islands and took a certain amount of booty. From there they came to Corfu and the harbour of Preveza, and turning back from there they cast the anchor of rest in the harbour of İnebahtı.",
+     "titel": "Too early, and short of men",
+     "note": "As printed. The first of Safar 979 fell in June 1571, not at Nevruz in March; the calendar equation is Peçevî's and is not corrected here. The verb before 'plundered' (printed اردوکوب) is uncertain in reading; the sense of an attack on Cephalonia is clear. 'Korfos' is Corfu, raided in August 1571; İnebahtı is Lepanto (Naupaktos)."
+    },
+    {
+     "n": 4,
+     "orig": "و انده خبر آلدیلر که کفار دوننماسین تکمیل ایتمش و اهل اسلام دوننماسی اوزرینه کلیورمش پس جمع اولوب مشاوره ایتدیلر پرتو پاشا نفسنده بو اوهام و احتمالاته وجود ویرمکین بدنام اولمقدن احتراز تام ایتمکله جنکجیده و کورکجیده نقصان زیاده‌در دیو هر بار اظهار عجز ایدردیکز بالخصوص بو یالی سنجاقلرینك ارباب تیماری برر بهانه ایله اجازت آلوب کتدیکی معلوم اولمشدر هر وجهله دوننمامزده نقصان مقرردر اینه‌بختی لیماننده اوتوره‌لم اما اوزریمزه کافر کلورسه جنك ایده‌لم دیدی",
+     "tr": "Ve anda haber aldılar ki küffâr donanmasın tekmîl itmiş ve ehl-i İslâm donanması üzerine geliyormış. Pes cem' olup müşâvere itdiler. Pertev Paşa nefsinde bu evhâm ve ihtimâlâta vücûd virmeğin bednâm olmakdan ihtirâz-ı tâm itmekle: 'Cengçide ve kürekçide noksân ziyâdedür deyü her bâr izhâr-ı acz iderdük [?]. Bi'l-husûs bu yalı sancaklarının erbâb-ı tîmârı birer bahâne ile icâzet alup gitdüği ma'lûm olmışdur. Her vechile donanmamızda noksân mukarrerdür. İnebahtı limanında oturalum; ammâ üzerimüze kâfir gelürse ceng idelüm' didi.",
+     "en": "There they received news that the infidels had completed their fleet and were coming against the fleet of the people of Islam. So they gathered and took counsel. Pertev Pasha, although he was wholly wary of earning a bad name by giving substance to such fears and possibilities in himself, said: 'Every time we have declared our weakness, saying that the shortage of fighting men and oarsmen is great. In particular it is known that the timar-holders of the sancaks of this coast have each taken leave on some pretext and gone home. In every respect our fleet is short. Let us stay in the harbour of İnebahtı; but if the infidel comes upon us, let us fight.'",
+     "titel": "Pertev Pasha's counsel",
+     "note": "The opening of the sentence is difficult: the print reads بروهام, taken here as bu evhâm, 'these fears'; the verb ending ایدردیکز is rendered as a first-person plural."
+    },
+    {
+     "n": 5,
+     "orig": "قپودان پاشا البته غیرت اسلام و عرض ناموس پادشاه انام بو دکلدر هر سفینه‌ده فرضا بشر اون آدم ناقص اولدیغی درکار ایسه‌ده ان شاء الله تعالی امیددرکه بزه نقصان ویرمیه مقابله‌یه وارمغی ترجیح ایتدی اولج علی پاشا دخی جنکه راغب اولمغی بالخصوص کفار اوزرینه وارمغی جدا مناسب کورمدی والا قپودان پاشا بکا آستانه‌دن کلان احکامده نقدر تأکید و تهدید اولنمشدر بن منصبمدن دکل باشمدن قورقارم دیو مصر اولیجق سائر امرا و رؤسا دخی اصلا مخالفت ایده‌مدیلر",
+     "tr": "Kapudan Paşa: 'Elbette gayret-i İslâm ve ırz-ı nâmûs-ı pâdişâh-ı enâm bu değüldür; her sefînede farzâ beşer on âdem nâkıs olduğı derkâr ise de, inşâ'allâhu te'âlâ ümîddür ki bize noksân virmeye' — mukâbeleye varmağı tercîh itdi. Uluç Ali Paşa dahi cenge râğıb olmağı, bi'l-husûs küffâr üzerine varmağı ciddâ münâsib görmedi. Ve illâ Kapudan Paşa: 'Bana Âsitâne'den gelen ahkâmda ne kadar te'kîd ve tehdîd olunmışdur; ben mansıbımdan değil, başımdan korkarım' deyü musırr olıcak, sâ'ir ümerâ ve rü'esâ dahi aslâ muhâlefet idemediler.",
+     "en": "The Kapudan Pasha said: 'Surely this is not what the zeal of Islam and the honour of the Padishah of mankind require. Even if it is plain that every ship is short by, say, five or ten men, God willing it is to be hoped that this will do us no harm' — and he chose to go out and meet them. Uluç Ali Pasha too did not think it at all fitting to be eager for battle, least of all to go out against the infidels. But when the Kapudan Pasha insisted, saying: 'How strongly have I been urged and threatened in the orders that came to me from the Threshold! It is not my office I fear for, but my head,' the other commanders and captains could offer no opposition at all.",
+     "titel": "The Kapudan's reply, and the orders from Istanbul",
+     "note": "The Threshold (Âsitâne) is the Porte in Istanbul. The Ottoman council of war mirrors the League's: in both, the commander is bound by orders from the capital to fight."
+    },
+    {
+     "n": 6,
+     "orig": "چونکیم دشمن اوزرینه عزیمتی مقرر ایتدیلر اولج پاشا طرف عمانی بز طوته‌لم دیدی قپودان پاشا قییی طوتمق اولادر دیدی بو بابده دخی چوق لج و عناد اولندی عاقبت اولج صقالین طوتدی و یولدی وقتی خیر الدین پاشا ایله و طورغود ایله جنك کورنلر نیچون سویلمزلر بر کمی‌یه طوب طوقندیغی کبی غرق احتمالندن قره‌یه میل ایتسه کرك سائرلرینه باعث انهزام اولور دیو نقدر فریاد ایتمش ایسه‌ده مفید اولمدی",
+     "tr": "Çünkim düşman üzerine azîmeti mukarrer itdiler, Uluç Paşa: 'Taraf-ı ummânı biz tutalum' didi. Kapudan Paşa: 'Kıyıyı tutmak evlâdur' didi. Bu bâbda dahi çok lecc ü inâd olundı. Âkıbet Uluç sakalın tutdı ve yoldı: 'Vakti Hayreddin Paşa ile ve Turgud ile ceng görenler niçün söylemezler? Bir gemiye top tokunduğı gibi ğark ihtimâlinden karaya meyl itse gerek; sâ'irlerine bâ'is-i inhizâm olur' deyü ne kadar feryâd itmiş ise de müfîd olmadı.",
+     "en": "When they had resolved to go against the enemy, Uluç Pasha said: 'Let us hold the open-sea side.' The Kapudan Pasha said: 'Better to hold the shore.' Over this too there was much obstinacy and wrangling. At last Uluç seized his beard and tore at it: 'Why do they not speak, those who saw battle in the days of Hayreddin Pasha and of Turgut? As soon as a cannonball strikes a ship, for fear of sinking she will make for the land, and that will set the rest to flight' — but however much he cried out, it was of no use.",
+     "titel": "Uluç Ali tears his beard",
+     "note": "Hayreddin Barbarossa (d. 1546) and Turgut Reis (d. 1565) were the great Ottoman admirals of the previous generation. At Preveza in 1538 Hayreddin had beaten the last Holy League to meet the Ottoman fleet, which is the memory Uluç Ali appeals to."
+    },
+    {
+     "n": 7,
+     "orig": "و بالجمله بزم دوننمامز قییدن و کافر دوننماسی عماندن مقابل اولدقلری کبی قپودان پاشا خیرات بهادرلغین ایدوب حملهٔ اولاده کافر دوننماسنه چاتدی کافر دخی اوچ فانوسندن قپودان اولدیغین معلوم ایدنمکله اکثر دوننماسنی اوزرینه اوشوردی فی الحال کندیسی شهید و اوغللری باشترده ایله کرفتار اولدیلر سائر دوننما خلقی بونی کوریجك قره‌یه دوکلدیلر پرتو پاشا دخی قره‌یه چیقوب و پیاده طاغه دوشوب هزار درد ایله باشین خلاص ایتدی",
+     "tr": "Ve bi'l-cümle bizüm donanmamız kıyıdan ve kâfir donanması ummândan mukâbil oldukları gibi Kapudan Paşa [hayli?] bahâdırlığın idüp hamle-i ûlâda kâfir donanmasına çatdı. Kâfir dahi üç fânûsundan kapudan olduğın ma'lûm idinmekle ekser donanmasını üzerine üşürdi. Fi'l-hâl kendüsi şehîd ve oğulları baştarda ile giriftâr oldılar. Sâ'ir donanma halkı bunı görücek karaya döküldiler. Pertev Paşa dahi karaya çıkup ve piyâde tağa düşüp hezâr derd ile başın halâs itdi.",
+     "en": "In short, as soon as our fleet from the shore side and the infidel fleet from the open sea came face to face, the Kapudan Pasha fought with great valour and in the first onset fell upon the infidel fleet. The infidel, knowing him for the commander by his three lanterns, massed the greater part of his fleet against him. In a moment he himself was martyred, and his sons were taken with the bastarda, the flagship. When the men of the rest of the fleet saw this, they poured onto the land. Pertev Pasha too went ashore, took to the mountain on foot, and with a thousand pains saved his head.",
+     "titel": "The three lanterns",
+     "note": "The word before 'valour' (printed خیرات) is uncertain; the sense is clear. The three stern lanterns marked a flagship on both sides: Cervantes's captive rows in 'the leading galley with the three lanterns' at Navarino a year later."
+    },
+    {
+     "n": 8,
+     "orig": "بو حقیر کثیر التقصیر اول محاربه اولان محلی کورمشم اینه‌بختیدن آشاغی قارلی ایلی سنجاغنده دریادن بر صیغ یرده خواص همایوندن اناطولقوز دیرلر بر قریهٔ کبیره‌نك الت یاننده ینه قارلی ایلی سنجاغنده واقع ارکیله قصری دیدکلری بر قصبه‌جغك مقابله‌سیدر و بر صعب و سنکستان طاغك دیبنده‌در خلاص اولنلر او طاغه التجا ایله خلاص اولمشلردر",
+     "tr": "Bu hakîr-i kesîrü't-taksîr ol muhârebe olan mahalli görmişüm: İnebahtı'dan aşağı Karlıili sancağında deryâdan bir sığ yirde, havâss-ı hümâyûndan Anatolikoz dirler bir karye-i kebîrenin alt yanında, yine Karlıili sancağında vâki' Erkile [?] Kasrı didükleri bir kasabacığın mukâbelesidür, ve bir sa'b ve sengistân tağın dibindedür. Halâs olanlar ol tağa ilticâ ile halâs olmışlardur.",
+     "en": "This humble one, rich in shortcomings, has seen the place where that battle was fought. It lies below İnebahtı, in the sancak of Karlıili, in a shallow part of the sea, below a large village of the imperial domains called Anatolikoz, opposite a little town in the same sancak called Erkile [?] Kasrı, at the foot of a steep and stony mountain. Those who were saved were saved by taking refuge on that mountain.",
+     "titel": "The place of the battle",
+     "note": "Peçevî was born in 1574, three years after the battle; he writes as a later visitor to the place, not as a witness of the day. Anatolikoz is Aitoliko in Aetolia; Karlıili is the Ottoman sancak of Aetolia-Acarnania. The name of the little town is uncertain in reading."
+    },
+    {
+     "n": 9,
+     "orig": "اما اولج علی پاشا کندینك یکرمی پاره کمیسیله باشقه آلای اولوب و کفارك جانب یمیننه و دوننمای همایونك جانب یسارندن اوزرینه کلان کفار کمیلریله جنك و پرخاش ایده‌رك برقاچ کمیلرین مجروح و نیجه کافرلری مقتول و کندی کمیلرینه دخی کافردن بر ایکی طوب طوقنوب عاقبت روزکار طرف دشمندن وزان اولوب علی پاشایه دخی موافقتی اولمغله صحیح و سالم خلاص اولدی و کفاردن بر ایکی کمی آلدی و کندیسی بر چوب آلدرمیوب چون آستانهٔ سعادته کلدی قپودانلق عنایت اولندی و اولج لفظی قلیجه تبدیل اولنمق بیورلدی حتی کندی‌یه یازیلان احکامه دخی قلیج لفظنی قید ایتدیلر",
+     "tr": "Ammâ Uluç Ali Paşa kendünün yigirmi pâre gemisiyle başka alay olup küffârın cânib-i yemînine ve donanma-yı hümâyûnun cânib-i yesârından üzerine gelen küffâr gemileriyle ceng ü perhâş iderek birkaç gemilerin mecrûh ve nice kâfirleri maktûl, ve kendü gemilerine dahi kâfirden bir iki top tokunup, âkıbet rüzgâr taraf-ı düşmandan vezân olup Ali Paşa'ya dahi muvâfakatı olmağla sahîh ü sâlim halâs oldı ve küffârdan bir iki gemi aldı, ve kendüsi bir çöp aldırmayup. Çün Âsitâne-i Sa'âdet'e geldi, kapudanlık inâyet olundı ve Uluç lafzı Kılıc'a tebdîl olunmak buyuruldı; hattâ kendüye yazılan ahkâma dahi Kılıç lafzını kayd itdiler.",
+     "en": "But Uluç Ali Pasha, with his own twenty ships, formed a squadron apart, and fought and struggled with the infidel ships that came against him on the infidels' right and the imperial fleet's left, damaging several of their ships and killing many infidels, while one or two cannonballs from the infidels struck his own ships too. At last, as the wind blew from the enemy's side and so favoured Ali Pasha as well, he got away safe and sound, took one or two ships from the infidels, and lost not so much as a splinter himself. When he came to the Threshold of Felicity he was granted the office of Kapudan, and it was ordered that the word Uluç be changed to Kılıç; even in the orders written to him they set down the word Kılıç.",
+     "titel": "Uluç Ali escapes, and becomes Kılıç",
+     "note": "Uluç ('renegade', for a convert to Islam; he was born in Calabria) became Kılıç, 'sword'. Among the ships he took was the flagship of the Knights of Malta, as Cervantes's captive also tells (DQ I.39)."
+    }
+   ]
+  },
+  {
+   "id": "fleet",
+   "titel": "The new fleet (pp. 498–499)",
+   "zk": "Peç. Fleet",
+   "blurb": "The judgement on the battle, 'since Noah invented the ship', and the answer: eight new slipways, Sokollu's anchors of silver and sails of satin, and more than two hundred galleys ready before the next spring.",
+   "units": [
+    {
+     "n": 1,
+     "orig": "و بو محاربهٔ غیر مبارکه دولت اسلامیه‌ده دکل بلکه حضرت نوح نبی علیه السلام سفینه احداث و ایجاد ایده‌لی بحار ارضده اولمامشدر یوز طقسان پاره چکدرمه سفینه ایدیکه اعدای دینه دکدی بوکا کوره طوب و تفنك و سائر آلات و لوازمات و فورسه کورکجیسی و اهل اسلام جنکجیسی اقلی اوچیوز آدمدن ناقص دکل ایکن یوزر اولدیغی تقدیرجه تقریبا یکرمی بیك اولور",
+     "tr": "Ve bu muhârebe-i ğayr-ı mübâreke devlet-i İslâmiyye'de değil, belki hazret-i Nûh nebî aleyhi's-selâm sefîne ihdâs ve îcâd ideli bihâr-ı arzda olmamışdur. Yüz toksan pâre çekdirme sefîne idi ki a'dâ-yı dîne değdi. Buna göre top ve tüfenk ve sâ'ir âlât ve levâzımât, ve forsa kürekçisi ve ehl-i İslâm cengçisi ekallü üçyüz âdemden nâkıs değil iken yüzer olduğı takdîrce takrîben yigirmi bin olur.",
+     "en": "And such an unblessed battle has not happened, not in the Islamic state only, but on the seas of the earth since the Prophet Noah, peace be upon him, first made and invented the ship. It was a hundred and ninety galleys that fell to the enemies of the faith; with them their cannon and muskets and all other gear and stores; and of galley-slave oarsmen and fighting men of Islam, reckoning only a hundred to a ship, though none carried fewer than three hundred, it comes to some twenty thousand.",
+     "titel": "Since Noah invented the ship",
+     "note": "Peçevî's figures: 190 galleys lost, and at least 20,000 men counted at a deliberately low hundred a ship."
+    },
+    {
+     "n": 2,
+     "orig": "اول حینده حضرت پادشاه اعز الله تعالی انصاره محمیهٔ ادرنه‌ده بولندیلر بلا اهمال محمیهٔ علیهٔ قسطنطینیه‌یه کلدیلر و دوننما و سفاین احداثنه اقدام و اهتمام ایتدیلر و ترسانه قربنده اولان باغچهٔ خاصه‌دن برمقدار یرین افراز ایدوب مجددا سکز سفینه ایچون ترسانه احداث ایتدیلر",
+     "tr": "Ol hînde hazret-i pâdişâh a'azzallâhu te'âlâ ensârahu mahmiyye-i Edirne'de bulundılar. Bilâ ihmâl mahmiyye-i aliyye-i Kostantiniyye'ye geldiler ve donanma ve sefâyin ihdâsına ikdâm ve ihtimâm itdiler. Ve tersâne kurbunda olan bağçe-i hâssadan bir mikdâr yirin ifrâz idüp mücedded sekiz sefîne içün tersâne ihdâs itdiler.",
+     "en": "At that time His Majesty the Padishah, may God Most High strengthen his helpers, was in the well-guarded city of Edirne. Without delay he came to the exalted, well-guarded city of Constantinople and applied himself with zeal and care to the building of a fleet and of ships. They set apart part of the grounds of the private garden near the Arsenal and made new slipways there for eight ships.",
+     "titel": "The Sultan comes to the Arsenal",
+     "note": "The print's بلا اعمال is read as بلا اهمال, 'without delay'."
+    },
+    {
+     "n": 3,
+     "orig": "منقولدرکه قپودان قلیج علی پاشا هر زمان صدر اعظم محمد پاشایه تکنه ایجاد و احداثی ممکندر والا مثلا ایکیوز سفینه‌یه بش التیوز لنکر و بوکا کوره اصحاب سفینه تعبیر ایتدکلری آلات که پالاروسن و هر سفینه‌یه یلکن بونلر هرکز تکمیل اولنمق احتمالی یوقدر دیرمش محمد پاشا مرحوم اویله جواب ویررلر که پاشا حضرتلری سن هنوز بو دولت علیه‌یی بیلمامشسن به والله بویله اعتقاد ایله بو دولت اول دولتدرکه مراد ایدینورسه جمله دوننمانك لنکرلرین کمشدن رسنلرین ابریشمدن یلکنلرین اطلسدن ایتمکده صعوبت چکمزلر و هر قنغی کمینك معتاد اوزره آلاتی و یلکنی یتشدرمزسم بو منوال اوزره بندن ال بیوررلر علی پاشا قالقوب الین اوپر و تحقیق بیلدمکه بو دوننمایی سز تکمیل ایدرسز دیر",
+     "tr": "Menkûldür ki Kapudan Kılıç Ali Paşa her zamân sadr-ı a'zam Mehmed Paşa'ya: 'Tekne îcâd ve ihdâsı mümkindür; ve illâ meselâ ikiyüz sefîneye beş altıyüz lenger, ve buna göre ashâb-ı sefîne ta'bîr itdükleri âlât ki [palamar u resen?], ve her sefîneye yelken — bunlar hergiz tekmîl olunmak ihtimâli yokdur' dirmiş. Mehmed Paşa merhûm öyle cevâb virürler ki: 'Paşa hazretleri, sen henüz bu devlet-i aliyyeyi bilmemişsin. Be-vallâhi böyle i'tikâd ile: bu devlet ol devletdür ki murâd idinürse cümle donanmanın lengerlerin gümüşden, resenlerin ibrişimden, yelkenlerin atlasdan itmekde su'ûbet çekmezler. Ve her kangı geminin mu'tâd üzre âlâtı ve yelkeni yetişdürmezsem bu minvâl üzre benden al [?]' buyururlar. Ali Paşa kalkup elin öper ve 'Tahkîk bildüm ki bu donanmayı siz tekmîl idersiz' dir.",
+     "en": "It is related that the Kapudan Kılıç Ali Pasha kept saying to the Grand Vizier Mehmed Pasha: 'Hulls can be built and made. But for two hundred ships, say, five or six hundred anchors, and in proportion the gear the seamen call [hawsers and cables?], and sails for every ship: there is no chance that these will ever be completed.' The late Mehmed Pasha answered him thus: 'Pasha, you do not yet know this exalted state. By God, believe it: this state is such a state that, if it wished, it would find no difficulty in making the anchors of the whole fleet of silver, the cables of silk and the sails of satin. And whatever ship I fail to supply with its customary gear and sail, demand it of me.' Ali Pasha rose, kissed his hand and said: 'Now I know for certain that you will complete this fleet.'",
+     "titel": "Anchors of silver, rigging of silk",
+     "note": "Mehmed Pasha is Sokollu Mehmed Pasha, grand vizier 1565–1579 ('the late' because Peçevî writes after his murder in 1579). Two readings are uncertain: the seamen's term (printed پالاروسن, perhaps palamar u resen, 'hawsers and cables') and the closing words of Sokollu's promise (printed بندن ال بیوررلر)."
+    },
+    {
+     "n": 4,
+     "orig": "فی نفس الامر ایکیوزدن زیاده قادرغه و باشترده نوروزدن مقدم تکمیل و جمله‌سنك آلات و اسبابی و کورکجیسی و جنکجیسی و بونجه طوب و تفنك و ادوات جنك بالتمام و الکمال تکمیل اولندقدن صکره وقت و زمانیله مکمل و مرتب دوننما اخراج ایدوب کوندردیلر نه بر فرده کمی صالدیلر نه اقچه و امداد آلدیلر و بو جمله‌سی بش التی آیده تکمیل اولنمق محالدر اولورسه دخی کمی قوللنور آدم بولنمق نه احتمالدر دیو کفار بو اعتقادده ایدی ینه مکمل دوننما دریایه چیقدیغین کوریجك حیران و متحیر قالورلر الآن بونلر اول قومدرکه دفعهٔ واحده‌ده بو قدر کمی آلدردیلر و التی آیه دکین کالاول بل اتم و اکمل یرینه کتوردیلر دیرلرمش",
+     "tr": "Fî nefsi'l-emr ikiyüzden ziyâde kadırga ve baştarda Nevrûz'dan mukaddem tekmîl, ve cümlesinin âlât ve esbâbı ve kürekçisi ve cengçisi ve bunca top ve tüfenk ve edevât-ı ceng bi't-temâm ve'l-kemâl tekmîl olundukdan sonra, vakt ü zamânıyla mükemmel ve müretteb donanma ihrâc idüp gönderdiler. Ne bir ferde gemi saldılar, ne akçe ve imdâd aldılar. Ve 'Bu cümlesi beş altı ayda tekmîl olunmak muhâldür; olursa dahi gemi kullanur âdem bulunmak ne ihtimâldür' deyü küffâr bu i'tikâdda idi. Yine mükemmel donanma deryâya çıkduğın görücek hayrân ve mütehayyir kalurlar: 'El-ân bunlar ol kavmdür ki def'a-i vâhidede bu kadar gemi aldırdılar ve altı aya degin ke'l-evvel, bel etemm ve ekmel yirine getürdiler' dirlermiş.",
+     "en": "In truth, more than two hundred galleys and bastardas were completed before Nevruz; and after all their gear and fittings, their oarsmen and fighting men, and so many cannon and muskets and instruments of war had been fully and perfectly supplied, a complete and well-ordered fleet was put to sea in good time and sent out. They laid no ship upon any single person, nor took money or contributions. The infidels had believed: 'All this cannot possibly be completed in five or six months; and even if it were, what chance is there of finding men to sail the ships?' When they saw the complete fleet put to sea again, they were left amazed and bewildered, and are said to have said: 'These are now that people who lost so many ships at one stroke, and within six months have put them back as before, nay more complete and more perfect.'",
+     "titel": "Two hundred galleys before Nevruz",
+     "note": "The chapter ends here; the next, 'the campaign of the imperial fleet' of 980 (1572), follows on p. 499."
+    }
+   ]
+  }
+ ]
+}

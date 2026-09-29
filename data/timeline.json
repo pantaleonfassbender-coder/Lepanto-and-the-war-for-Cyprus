@@ -85,7 +85,7 @@
    "d": "7 October 1571",
    "side": "league",
    "titel": "Lepanto",
-   "text": "At the mouth of the Gulf of Patras the League's fleet destroys the Ottoman fleet of Müezzinzade Ali Pasha. Uluç Ali escapes with his squadron. Cervantes is wounded; the captive of his novel is taken prisoner.",
+   "text": "At the mouth of the Gulf of Patras the League's fleet destroys the Ottoman fleet of Müezzinzade Ali Pasha. Uluç Ali escapes with his squadron. Cervantes is wounded; the captive of his novel is taken prisoner. From the Ottoman side, Peçevî: the fleet sent out short of men, its commander bound by orders from Istanbul, and no such defeat 'since Noah invented the ship'.",
    "cite": "#/text/cervantes/captive",
    "citeLabel": "DQ I.39",
    "plate": "venier"
@@ -95,8 +95,10 @@
    "d": "Winter 1571–72",
    "side": "ottoman",
    "titel": "A new fleet",
-   "text": "Under Sokollu and Uluç Ali (now Kılıç Ali Pasha) the Ottoman arsenals build a new fleet in a single season.",
-   "plate": "sokollu"
+   "text": "Under Sokollu and Uluç Ali, now Kılıç Ali Pasha, the Ottoman arsenal builds a new fleet in a single winter, with eight new slipways laid out in the Sultan's garden. More than two hundred galleys are ready before the spring.",
+   "plate": "sokollu",
+   "cite": "#/text/pecevi/fleet/3",
+   "citeLabel": "Peç. Fleet [3]"
   },
   {
    "y": 1572.3,
