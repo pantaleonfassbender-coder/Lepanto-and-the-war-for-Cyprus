@@ -10,6 +10,15 @@
    "warum": "The treaty itself, in a Spanish copy printed by Dumont, with a working translation: two hundred galleys, the cost in sixths, the Pope as judge of every quarrel, three generals deciding by majority, and the clause that no confederate may treat with the Turk alone."
   },
   {
+   "id": "pius",
+   "datei": "pius",
+   "line": "league",
+   "side": "papacy",
+   "kurz": "The Popes after the victory: prisoners, war, captives, feast",
+   "zk": "Pius",
+   "warum": "The player's office in its own words, Latin with a working translation: Pius V forbidding the release of the Ottoman prisoners, seamen the enemy needed (December 1571); his call to pay and fight on, with the crusade indulgence (March 1572); his order forbidding the League's soldiers to enslave the Christians they found in Ottoman lands; and Gregory XIII's feast of the Rosary for 7 October, founded three weeks after Venice's separate peace."
+  },
+  {
    "id": "famagusta",
    "datei": "famagusta",
    "line": "cyprus",
@@ -97,14 +106,6 @@
    "kurz": "Richard Knolles, The Generall Historie of the Turkes (London, 1603)",
    "warum": "The English history of the Ottoman state, with a full account of the Cyprus war and the battle. Early modern English; the OCR needs repair (long s, running side notes).",
    "quelle": "Internet Archive b30332989 (edition of 1638)."
-  },
-  {
-   "id": "pius",
-   "line": "league",
-   "side": "papacy",
-   "kurz": "Pius V and the feast of the victory (1572)",
-   "warum": "The bull that turned the anniversary of the battle into a feast of the Church, the start of Lepanto's afterlife in liturgy. Latin, with a working translation.",
-   "quelle": "Bullarum … Romanorum pontificum Taurinensis editio, vol. VII (Turin, 1862), on the Internet Archive; the bull is still to be located."
   },
   {
    "id": "relazioni",

@@ -79,12 +79,13 @@ figcaption{font-size:.85rem; color:var(--ink2); margin-top:.4rem}
 .cmp.n2{grid-template-columns:1fr 1fr}
 .cmp.n3{grid-template-columns:repeat(3,minmax(0,1fr))}
 .cmp.n4{grid-template-columns:1fr 1fr}
+.cmp.n5,.cmp.n6{grid-template-columns:repeat(3,minmax(0,1fr))}
 .voice{background:var(--panel); border:1px solid var(--line); border-radius:10px; padding:.8rem 1rem}
 .vhead{border-bottom:1px solid var(--line); padding-bottom:.5rem; margin-bottom:.5rem}
 .vunit{margin:.7rem 0}
 .vunit .text{white-space:pre-line}
 @media (max-width:760px){
-  .cmp.n2,.cmp.n3,.cmp.n4{grid-template-columns:1fr}
+  .cmp.n2,.cmp.n3,.cmp.n4,.cmp.n5,.cmp.n6{grid-template-columns:1fr}
   .hero{grid-template-columns:1fr}
   .unit .cols{grid-template-columns:1fr}
   .st{grid-template-columns:1fr}

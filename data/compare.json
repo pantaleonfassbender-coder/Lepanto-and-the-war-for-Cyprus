@@ -148,6 +148,52 @@
    ]
   },
   {
+   "id": "freed",
+   "titel": "Who was freed?",
+   "frage": "The galley slaves, before, during and after the battle.",
+   "note": "The League unchained and armed its own convicts before the battle; the Ottomans put manacles on their Christian slaves; Ali Pasha, in Herrera, promised his rowers freedom if he won and was mourned by them when he fell. Twelve thousand Christians were freed from the Ottoman benches, and the prisoners taken went to the League's benches in their turn; in December Pius V forbade releasing or ransoming them while the war lasted, because they were seamen the enemy needed. Five months later Pius V had to forbid the League's own soldiers to enslave the Christians they found in Ottoman lands.",
+   "voices": [
+    {
+     "text": "contarini",
+     "sec": "battle",
+     "n": [
+      3,
+      14
+     ]
+    },
+    {
+     "text": "herrera",
+     "sec": "battle",
+     "n": [
+      2,
+      8
+     ]
+    },
+    {
+     "text": "herrera",
+     "sec": "outcome",
+     "n": [
+      5
+     ]
+    },
+    {
+     "text": "pius",
+     "sec": "captives",
+     "n": [
+      2,
+      3
+     ]
+    },
+    {
+     "text": "pius",
+     "sec": "prisoners",
+     "n": [
+      2
+     ]
+    }
+   ]
+  },
+  {
    "id": "count",
    "titel": "Counting the loss",
    "frage": "What the day cost each side.",

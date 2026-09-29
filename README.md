@@ -2,9 +2,10 @@
 
 A documentary apparatus for the war for Cyprus and the Holy League, 1570–1573: public-domain sources from the siege of Famagusta to the battle of Lepanto and its afterlife, with readers (original beside English), a timeline linked into the texts, and plates from the prints of the time.
 
-Stage 1 (September 2026) carries eight modules:
+Stage 1 (September 2026) carries nine modules:
 
 - **The capitulations of the Holy League** (Rome, May 1571) — the treaty in a Spanish copy printed by Dumont (1728), transcribed from the page images, with a working translation.
+- **The Popes after the victory** — Pius V's constitutions on the Ottoman prisoners (1571), *Cum nos* (1572) and on Christian captives, and Gregory XIII's *Monet Apostolus* (1573), from the Turin *Bullarium* (1862–63), Latin with a working translation.
 - **The loss of Famagusta** — Nestore Martinengo's report in William Malim's English (1572), with Malim's dedication, his description of Cyprus and his Latin prayer (transcribed from the page, with a working translation), from Hakluyt vol. V (1904).
 - **Contarini: the councils and the battle** — Giovanni Pietro Contarini's *Historia delle cose successe* (Venice 1572), ff. 40r–56r, the Ottoman council of war, the battle and the news in Venice, from the Munich copy (MDZ full text, corrected against the page images), with a working translation; its map of the bay is a plate.
 - **Herrera: the battle, and a song of victory** — Fernando de Herrera's *Relación de la guerra de Cipre* (Seville 1572), chapters XXIV–XXVIII and the *Canción*, from the reprint in the *Colección de documentos inéditos* XXI (1852), with a working translation.
@@ -19,6 +20,7 @@ Planned modules and their sources are listed on the Texts page (`data/modules.js
 
 ```
 python tools/build-liga.py
+python tools/build-pius.py
 python tools/build-famagusta.py
 python tools/build-contarini.py
 python tools/build-herrera.py
