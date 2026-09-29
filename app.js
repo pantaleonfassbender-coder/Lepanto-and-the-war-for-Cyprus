@@ -69,7 +69,7 @@ function overview() {
     <div class="panel"><h3>Who writes the war?</h3>
       <p>A Venetian officer who sold himself as a slave to survive; an English protestant who translated him for the Earl of Leicester; a Spanish veteran writing fiction; an Edwardian balladeer; and an Ottoman historian, born three years after the battle, who walked the shore where it was fought (<a href="#/text/pecevi/battle">Peç. Battle</a>). The Ottoman side is still the thinner one, as the <a href="#/sources">sources page</a> says.</p></div>
     <div class="panel"><h3>What outlasts it?</h3>
-      <p>Malim thinks letters outlast pyramids. Cervantes thinks a fortress's stones are not needed to keep a memory alive. The companion game <a href="https://la-mas-alta-ocasion.netlify.app/" target="_blank" rel="noopener"><em>La más alta ocasión</em></a> is built on these texts: you hold the League together as the Pope, and its accounting asks what the victory actually secured.</p></div>
+      <p>Malim thinks letters outlast pyramids. Cervantes thinks a fortress's stones are not needed to keep a memory alive. The companion game <a href="https://la-mas-alta-ocasion.netlify.app/" target="_blank" rel="noopener"><em>La más alta ocasión</em></a> is built on these texts: you hold the League together as the Pope, and its accounting asks what the victory actually secured. It is also on <a href="https://leofassb.itch.io/la-mas-alta-ocasion" target="_blank" rel="noopener">itch.io</a>, with a <a href="https://leofassb.itch.io/la-mas-alta-ocasion/devlog" target="_blank" rel="noopener">devlog</a> on how it was tested.</p></div>
   </div>`;
 }
 
