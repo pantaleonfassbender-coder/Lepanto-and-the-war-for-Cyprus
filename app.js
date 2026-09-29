@@ -69,7 +69,7 @@ function overview() {
     <div class="panel"><h3>Who writes the war?</h3>
       <p>A Venetian officer who sold himself as a slave to survive; an English protestant who translated him for the Earl of Leicester; a Spanish veteran writing fiction; an Edwardian balladeer. The Ottoman side speaks here only through them, a gap the <a href="#/sources">sources page</a> names.</p></div>
     <div class="panel"><h3>What outlasts it?</h3>
-      <p>Malim thinks letters outlast pyramids. Cervantes thinks a fortress's stones are not needed to keep a memory alive. A game built on these texts is in preparation: its accounting asks what the League's victory actually secured.</p></div>
+      <p>Malim thinks letters outlast pyramids. Cervantes thinks a fortress's stones are not needed to keep a memory alive. The companion game <a href="https://la-mas-alta-ocasion.netlify.app/" target="_blank" rel="noopener"><em>La más alta ocasión</em></a> is built on these texts: you hold the League together as the Pope, and its accounting asks what the victory actually secured.</p></div>
   </div>`;
 }
 
