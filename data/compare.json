@@ -5,11 +5,41 @@
    "id": "council",
    "titel": "Who argued against battle?",
    "frage": "The Ottoman council of war at Lepanto, early October 1571.",
-   "note": "All three agree that Ali Pasha wanted battle, Pertev Pasha did not, and the Sultan's orders decided it. They disagree about Uluç Ali. In Contarini, written in Venice within months, he presses for battle and has the Sultan's order read; the cautious case, that the League cannot force the strait and the fleet must be kept, is made by Mehmed Bey. In Peçevî and Kâtip Çelebi, written in Istanbul decades later, the cautious case is Uluç Ali's own, and he tears his beard when he is overruled. By then Kılıç Ali was the admiral who had saved his squadron and rebuilt the fleet.",
+   "note": "All three agree that Ali Pasha wanted battle, Pertev Pasha did not, and the Sultan's orders decided it. They disagree about Uluç Ali. In Contarini, written in Venice within months, he presses for battle and has the Sultan's order read; the cautious case, that the League cannot force the strait and the fleet must be kept, is made by Mehmed Bey. In Peçevî and Kâtip Çelebi, written in Istanbul decades later, the cautious case is Uluç Ali's own, and he tears his beard when he is overruled. By then Kılıç Ali was the admiral who had saved his squadron and rebuilt the fleet. Herrera, writing in Seville in 1572 from captives' reports, sides with the Ottoman historians: Uluç Ali warns that the western galleys will fight, and the Pasha goes out for fear of his head.",
    "voices": [
-    {"text": "contarini", "sec": "council", "n": [8, 13, 16]},
-    {"text": "pecevi", "sec": "battle", "n": [4, 5, 6]},
-    {"text": "katib", "sec": "lepanto", "n": [4, 5]}
+    {
+     "text": "contarini",
+     "sec": "council",
+     "n": [
+      8,
+      13,
+      16
+     ]
+    },
+    {
+     "text": "herrera",
+     "sec": "order",
+     "n": [
+      1
+     ]
+    },
+    {
+     "text": "pecevi",
+     "sec": "battle",
+     "n": [
+      4,
+      5,
+      6
+     ]
+    },
+    {
+     "text": "katib",
+     "sec": "lepanto",
+     "n": [
+      4,
+      5
+     ]
+    }
    ]
   },
   {
@@ -18,31 +48,103 @@
    "frage": "The opening of the battle, around midday on 7 October.",
    "note": "The Venetian history credits the six galleasses with scattering a third of the Ottoman fleet before the lines met. Kâtip Çelebi, a century later, remembers them as the bait: six ships came out alone from behind the Bloody Cape, and while the Ottoman galleys were busy with them, the rest came out and surrounded them. Uluç Ali, in his account, had warned that they were 'like fortresses and batteries'.",
    "voices": [
-    {"text": "contarini", "sec": "battle", "n": [10]},
-    {"text": "katib", "sec": "lepanto", "n": [6, 7]}
+    {
+     "text": "contarini",
+     "sec": "battle",
+     "n": [
+      10
+     ]
+    },
+    {
+     "text": "katib",
+     "sec": "lepanto",
+     "n": [
+      6,
+      7
+     ]
+    }
    ]
   },
   {
    "id": "flagship",
    "titel": "The Kapudan's galley",
    "frage": "The fight between the flagships in the centre.",
-   "note": "Contarini tells the boarding of Ali Pasha's galley from the Christian decks, thrown back three times and taken to the mast, but does not say how Ali died. Both Ottoman historians explain why the League found him: his three lanterns marked the flagship. Pertev Pasha's escape is in all three, in a caique, on foot into the mountains, or pulled from the sea and dressed as a servant.",
+   "note": "Contarini tells the boarding of Ali Pasha's galley from the Christian decks, thrown back three times and taken to the mast, but does not say how Ali died. Both Ottoman historians explain why the League found him: his three lanterns marked the flagship. Pertev Pasha's escape is in all three, in a caique, on foot into the mountains, or pulled from the sea and dressed as a servant. Herrera adds what only captives could tell: Ali Pasha promising his Christian rowers their freedom if he won, and mourned by them when he fell.",
    "voices": [
-    {"text": "contarini", "sec": "battle", "n": [15, 16]},
-    {"text": "pecevi", "sec": "battle", "n": [7]},
-    {"text": "katib", "sec": "lepanto", "n": [7]}
+    {
+     "text": "contarini",
+     "sec": "battle",
+     "n": [
+      15,
+      16
+     ]
+    },
+    {
+     "text": "herrera",
+     "sec": "battle",
+     "n": [
+      2,
+      8
+     ]
+    },
+    {
+     "text": "pecevi",
+     "sec": "battle",
+     "n": [
+      7
+     ]
+    },
+    {
+     "text": "katib",
+     "sec": "lepanto",
+     "n": [
+      7
+     ]
+    }
    ]
   },
   {
    "id": "escape",
    "titel": "Uluç Ali gets away",
    "frage": "The Ottoman left wing, and the one squadron that escaped.",
-   "note": "Four accounts of one manoeuvre. Contarini blames the gap Doria opened and has the Maltese galley recovered. Cervantes's captive, who was there, says Uluç Ali took the Maltese flagship with three knights left alive. The Ottoman historians make the escape the start of a career: the renegade Uluç becomes Kılıç, 'sword', and Kapudan.",
+   "note": "Four accounts of one manoeuvre. Contarini blames the gap Doria opened and has the Maltese galley recovered. Cervantes's captive, who was there, says Uluç Ali took the Maltese flagship with three knights left alive. The Ottoman historians make the escape the start of a career: the renegade Uluç becomes Kılıç, 'sword', and Kapudan. Herrera defends Doria's manoeuvre as deliberate and says Uluç Ali 'never fought with his own galley'.",
    "voices": [
-    {"text": "contarini", "sec": "battle", "n": [12, 17]},
-    {"text": "cervantes", "sec": "captive", "n": [3]},
-    {"text": "pecevi", "sec": "battle", "n": [9]},
-    {"text": "katib", "sec": "lepanto", "n": [8]}
+    {
+     "text": "contarini",
+     "sec": "battle",
+     "n": [
+      12,
+      17
+     ]
+    },
+    {
+     "text": "herrera",
+     "sec": "battle",
+     "n": [
+      7
+     ]
+    },
+    {
+     "text": "cervantes",
+     "sec": "captive",
+     "n": [
+      3
+     ]
+    },
+    {
+     "text": "pecevi",
+     "sec": "battle",
+     "n": [
+      9
+     ]
+    },
+    {
+     "text": "katib",
+     "sec": "lepanto",
+     "n": [
+      8
+     ]
+    }
    ]
   },
   {
@@ -51,9 +153,35 @@
    "frage": "What the day cost each side.",
    "note": "Contarini counts the Venetian dead by trade from the muster rolls and gives round numbers for the rest; his enemy total does not add up. Peçevî counts the Ottoman loss in galleys, a hundred and ninety, and men at a deliberately low hundred to a ship; Kâtip Çelebi counts the prizes, sixty, and names the dead commanders. Each side also found its superlative: the greatest battle since Actium, the worst since Noah invented the ship.",
    "voices": [
-    {"text": "contarini", "sec": "reckoning", "n": [3, 4]},
-    {"text": "pecevi", "sec": "fleet", "n": [1]},
-    {"text": "katib", "sec": "lepanto", "n": [9]}
+    {
+     "text": "contarini",
+     "sec": "reckoning",
+     "n": [
+      3,
+      4
+     ]
+    },
+    {
+     "text": "herrera",
+     "sec": "outcome",
+     "n": [
+      5
+     ]
+    },
+    {
+     "text": "pecevi",
+     "sec": "fleet",
+     "n": [
+      1
+     ]
+    },
+    {
+     "text": "katib",
+     "sec": "lepanto",
+     "n": [
+      9
+     ]
+    }
    ]
   },
   {
@@ -62,9 +190,31 @@
    "frage": "Winter 1571–72.",
    "note": "In Contarini's council, Mehmed Bey warns that the Ottomans need years to build a fleet that the enemy can double in a season. Both Ottoman historians tell the opposite story of the following winter: eight new slipways, anchors of silver and sails of satin, more than two hundred galleys before spring. Kâtip Çelebi then argues with Peçevî over who paid for them.",
    "voices": [
-    {"text": "contarini", "sec": "council", "n": [13]},
-    {"text": "pecevi", "sec": "fleet", "n": [2, 3, 4]},
-    {"text": "katib", "sec": "fleet", "n": [2, 3, 4]}
+    {
+     "text": "contarini",
+     "sec": "council",
+     "n": [
+      13
+     ]
+    },
+    {
+     "text": "pecevi",
+     "sec": "fleet",
+     "n": [
+      2,
+      3,
+      4
+     ]
+    },
+    {
+     "text": "katib",
+     "sec": "fleet",
+     "n": [
+      2,
+      3,
+      4
+     ]
+    }
    ]
   },
   {
@@ -73,8 +223,24 @@
    "frage": "Famagusta, August 1571: the surrender and the death of Bragadin.",
    "note": "The two accounts agree on almost every act, the quarrel over hostages, the ears cut off, the hoisting to the yard, the basket of earth, the flaying, the stuffed skin, and differ on the reason. For Martinengo, who was in the city, the charge that Bragadin had killed Muslim prisoners during the truce was 'most false'. For Peçevî, following Mustafa Âlî, who was in the camp, Bragadin confessed it, and each punishment answers something he had done.",
    "voices": [
-    {"text": "famagusta", "sec": "report", "n": [29, 30]},
-    {"text": "pecevi", "sec": "cyprus", "n": [10, 12, 13, 14]}
+    {
+     "text": "famagusta",
+     "sec": "report",
+     "n": [
+      29,
+      30
+     ]
+    },
+    {
+     "text": "pecevi",
+     "sec": "cyprus",
+     "n": [
+      10,
+      12,
+      13,
+      14
+     ]
+    }
    ]
   },
   {
@@ -83,9 +249,28 @@
    "frage": "The rules for peace on both sides, and the peace of 1573.",
    "note": "The League's capitulations forbid any confederate to treat with the Turk alone. Ebussuud's fetva of 1570 allows the Sultan to break a peace with the infidels when breaking it serves the Muslims better. In 1573 Venice broke the first, and Kâtip Çelebi records the result as an order to the Ottoman fleet: spare the lands of Venice, lay waste those of Spain.",
    "voices": [
-    {"text": "liga", "sec": "faith", "n": [6]},
-    {"text": "pecevi", "sec": "cyprus", "n": [3, 4]},
-    {"text": "katib", "sec": "after", "n": [2]}
+    {
+     "text": "liga",
+     "sec": "faith",
+     "n": [
+      6
+     ]
+    },
+    {
+     "text": "pecevi",
+     "sec": "cyprus",
+     "n": [
+      3,
+      4
+     ]
+    },
+    {
+     "text": "katib",
+     "sec": "after",
+     "n": [
+      2
+     ]
+    }
    ]
   },
   {
@@ -94,8 +279,21 @@
    "frage": "The League's second campaign.",
    "note": "Cervantes's captive, at an Ottoman oar, watched the chance of taking the whole Ottoman fleet in harbour lost. Kâtip Çelebi gives Kılıç Ali's reason for sheltering under the guns of Modon: the army's eye was frightened after the year before. It is the strategy Mehmed Bey had urged in Contarini's council.",
    "voices": [
-    {"text": "cervantes", "sec": "captive", "n": [4, 5]},
-    {"text": "katib", "sec": "after", "n": [1]}
+    {
+     "text": "cervantes",
+     "sec": "captive",
+     "n": [
+      4,
+      5
+     ]
+    },
+    {
+     "text": "katib",
+     "sec": "after",
+     "n": [
+      1
+     ]
+    }
    ]
   },
   {
@@ -104,8 +302,22 @@
    "frage": "The end of the war.",
    "note": "The same siege from the Spanish soldier's memory and the Ottoman naval history: the captive counts seventy-five thousand Turks before the walls; Kâtip Çelebi counts five hundred guns carried to Istanbul, and the fortress blown into the air.",
    "voices": [
-    {"text": "cervantes", "sec": "captive", "n": [7]},
-    {"text": "katib", "sec": "tunis", "n": [4, 5, 6]}
+    {
+     "text": "cervantes",
+     "sec": "captive",
+     "n": [
+      7
+     ]
+    },
+    {
+     "text": "katib",
+     "sec": "tunis",
+     "n": [
+      4,
+      5,
+      6
+     ]
+    }
    ]
   }
  ]

@@ -28,6 +28,15 @@
    "warum": "The first history of the war, Venice 1572, in Italian with a working translation: the Ottoman council of war as the Venetians imagined it, with Uluç Ali pressing for battle; the convicts freed on the League's benches and the Christian slaves manacled on the Ottoman ones; the six galleasses; Barbarigo pinned against the shore; Ali Pasha's galley taken; Uluç Ali breaking through Doria's gap; the dead by trade; the spoils divided by the League's shares; the galley that brought the news to Venice."
   },
   {
+   "id": "herrera",
+   "datei": "herrera",
+   "line": "league",
+   "side": "spain",
+   "kurz": "Herrera: the battle, and a song of victory",
+   "zk": "Herrera",
+   "warum": "The Spanish account, Seville 1572, in Spanish with a working translation: whose resolution it was to seek battle, Venier's hesitation in a Spanish telling, Uluç Ali warning the Pasha and the Pasha fighting for his head, Ali Pasha promising his Christian rowers their freedom and mourned by them when he fell, the sea on fire in the rain, and a warning not to let Selim rebuild. With Herrera's Canción, the Song of Moses sung for Lepanto."
+  },
+  {
    "id": "pecevi",
    "datei": "pecevi",
    "line": "ottoman",
@@ -72,14 +81,6 @@
    "kurz": "The negotiations of 1570",
    "warum": "A Venetian account of the congregations in Rome from July to November 1570: Granvelle, Pacheco and Zúñiga for Spain, Cardinal Morone for the Pope, the Venetian ambassador fighting clause by clause over Barbary, perpetuity and money. Italian, with a working translation of selected sessions.",
    "quelle": "'Négociations & Conclusioni della Lega contra il Turco … dell'Anno 1570', from an old manuscript copy, in J. Dumont, Corps universel diplomatique, vol. V, part 1 (1728), no. XCI, pp. 187–196; Internet Archive corpsuniverseldi05dumo."
-  },
-  {
-   "id": "herrera",
-   "line": "battle",
-   "side": "spain",
-   "kurz": "Fernando de Herrera, Relación de la guerra de Cipre (Seville, 1572)",
-   "warum": "The first Castilian history of the war, written within months, by the poet of Seville. Spanish, with a working translation of the battle chapters.",
-   "quelle": "Seville: Alonso Escribano, 1572; Biblioteca Nacional de España R/3794, digitised by the Biblioteca Virtual Miguel de Cervantes."
   },
   {
    "id": "memoria",
