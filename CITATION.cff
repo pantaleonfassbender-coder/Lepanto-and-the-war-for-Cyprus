@@ -1,0 +1,36 @@
+cff-version: 1.2.0
+title: "Lepanto and the War for Cyprus: A Documentary Apparatus, 1570–1573"
+message: "If you use this apparatus, please cite it as below — and cite the printed source for any passage you quote."
+type: software
+authors:
+  - family-names: Fassbender
+    given-names: Pantaleon
+    orcid: "https://orcid.org/0000-0002-6683-3617"
+repository-code: "https://github.com/pantaleonfassbender-coder/Lepanto-and-the-war-for-Cyprus"
+url: "https://lepanto-and-the-war-for-cyprus.netlify.app/"
+abstract: >-
+  A documentary apparatus for the war for Cyprus and the Holy League,
+  1570-1573, built from public-domain sources carried in full or in whole
+  sections, with the original beside the English: the capitulations of the
+  Holy League (Rome, May 1571) in the Spanish copy printed by Dumont,
+  transcribed from the page images, with a working translation; Nestore
+  Martinengo's report of the siege of Famagusta in William Malim's English
+  of 1572, with Malim's dedication, his description of Cyprus and his Latin
+  prayer; the captive's tale of Don Quixote I.39 and the prologue to Part II
+  in Spanish and English; and Chesterton's Lepanto as reception. With a
+  timeline linked into the texts and plates from Stirling-Maxwell's Don John
+  of Austria (1883). The Ottoman side has as yet no public-domain English
+  source and speaks here only through Venetian, Spanish and English writers,
+  a gap the apparatus names.
+keywords:
+  - Lepanto
+  - Holy League
+  - Cyprus
+  - Famagusta
+  - Ottoman Empire
+  - Venice
+  - digital humanities
+  - early modern Mediterranean
+license: MIT
+version: 1.0.0
+date-released: 2026-09-30
