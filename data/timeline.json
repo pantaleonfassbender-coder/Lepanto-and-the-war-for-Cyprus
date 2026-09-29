@@ -14,7 +14,7 @@
    "d": "Spring 1570",
    "side": "ottoman",
    "titel": "The demand for Cyprus",
-   "text": "An Ottoman envoy demands the island; Venice refuses. Malim sets out both titles to the island: Venice's by the adoption of Caterina Cornaro, Selim's 'in the right of the Soldan of Ægypt'.",
+   "text": "An Ottoman envoy demands the island; Venice refuses. Malim sets out both titles to the island: Venice's by the adoption of Caterina Cornaro, Selim's 'in the right of the Soldan of Ægypt'. In Istanbul the Şeyhülislam Ebussuud rules that a peace with the infidels may be broken when breaking it serves the Muslims better.",
    "cite": "#/text/famagusta/cyprus",
    "citeLabel": "Fam. Cyp."
   },
@@ -23,14 +23,18 @@
    "d": "July 1570",
    "side": "ottoman",
    "titel": "The landing on Cyprus",
-   "text": "Lala Mustafa Pasha lands on the island with the army that will take both its fortresses."
+   "text": "Lala Mustafa Pasha lands on the island with the army that will take both its fortresses; Piyale Pasha, who outranks him, carries his tent ashore.",
+   "cite": "#/text/pecevi/cyprus/5",
+   "citeLabel": "Peç. Cyprus [5]"
   },
   {
    "y": 1570.7,
    "d": "9 September 1570",
    "side": "ottoman",
    "titel": "Nicosia falls",
-   "text": "The capital is stormed after a seven-week siege. A Christian relief fleet, gathered too late and divided in its command, turns back that autumn."
+   "text": "The capital is stormed after a seven-week siege. A Christian relief fleet, gathered too late and divided in its command, turns back that autumn.",
+   "cite": "#/text/pecevi/cyprus/7",
+   "citeLabel": "Peç. Cyprus [7]"
   },
   {
    "y": 1571.1,
@@ -66,7 +70,7 @@
    "d": "August 1571",
    "side": "ottoman",
    "titel": "Surrender, and the killing of the commanders",
-   "text": "Famagusta surrenders on terms. In Mustafa's tent the commanders are seized and killed; Bragadin is mutilated and later flayed alive. Martinengo, the report's author, sells himself as a slave to save his life. Martinengo dates the handing over to 15 August; modern accounts put the surrender at the start of the month and Bragadin's death on the 17th.",
+   "text": "Famagusta surrenders on terms. In Mustafa's tent the commanders are seized and killed; Bragadin is mutilated and later flayed alive. Martinengo, the report's author, sells himself as a slave to save his life. Martinengo dates the handing over to 15 August; modern accounts put the surrender at the start of the month and Bragadin's death on the 17th. Peçevî, after Mustafa Âlî, tells the same scene from the Ottoman side, with a reason Martinengo denies: the Muslim captives killed on the night of the surrender (Peç. Cyprus [12]).",
    "cite": "#/text/famagusta/report",
    "citeLabel": "Fam. Rep."
   },

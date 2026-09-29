@@ -1,10 +1,12 @@
-"""Build data/pecevi.json: Peçevî on Lepanto and the new fleet.
+"""Build data/pecevi.json: Peçevî on Cyprus, Lepanto and the new fleet.
 
 Source: İbrahim Peçevî (1574–c. 1650), Tarih-i Peçevî, vol. I (Istanbul:
-Matbaa-i Âmire, 1283/1866), pp. 495–499, the chapter "(انهزام دوننمای همایون)",
-the rout of the imperial fleet. Internet Archive tarihipeevi01peuoft
-(University of Toronto). The scan runs back to front: printed page = 509 − leaf,
-so pp. 495–499 are leaves 14–10. Public domain.
+Matbaa-i Âmire, 1283/1866): pp. 486–491, the chapter "(فتح جزیرهٔ قبریس و توابعها)",
+the conquest of Cyprus (kept in tools/pecevi_cyprus.py), and pp. 495–499, the
+chapter "(انهزام دوننمای همایون)", the rout of the imperial fleet. Internet
+Archive tarihipeevi01peuoft (University of Toronto). The scan runs back to
+front: printed page = 509 − leaf, so pp. 486–491 are leaves 23–18 and
+pp. 495–499 leaves 14–10. Public domain.
 
 The OCR cannot read the Ottoman type, so the text was transcribed by eye from
 the page images. The print has no punctuation; the units are the site's. The
@@ -13,7 +15,11 @@ the English are this site's working versions (CC0). Uncertain readings are
 marked [?] in the transliteration and named in the notes.
 """
 import json
+import sys
 from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from pecevi_cyprus import CYPRUS  # noqa: E402
 
 OUT = Path(__file__).resolve().parent.parent / "data" / "pecevi.json"
 
@@ -87,6 +93,8 @@ UNITS = [
 ]
 
 SECTIONS = [
+  ("cyprus", "The conquest of Cyprus (pp. 486–491)", "Peç. Cyprus",
+   "Peçevî's chapter on the war of 1570–71 from the Ottoman side: the fetva of Ebussuud that allowed the peace with Venice to be broken, the army of Lala Mustafa Pasha, Nicosia, the siege and the mine at Famagusta, the surrender, the quarrel in the commander's tent and the death of its captain, told after the historian Mustafa Âlî, who was there. Read it beside Martinengo's report from inside the walls."),
   ("battle", "The rout of the imperial fleet (pp. 495–498)", "Peç. Battle",
    "Peçevî's account of Lepanto from the Ottoman side: the fleet sent out too early and short of men, the council of war at İnebahtı where Pertev Pasha and Uluç Ali counsel caution and the Kapudan Ali Pasha fears for his head, the flagship known by its three lanterns, the rout, and Uluç Ali's escape and renaming as Kılıç."),
   ("fleet", "The new fleet (pp. 498–499)", "Peç. Fleet",
@@ -98,7 +106,7 @@ def main():
     sections = []
     for sid, titel, zk, blurb in SECTIONS:
         units = []
-        for s, label, ota, tr, en, note in UNITS:
+        for s, label, ota, tr, en, note in CYPRUS + UNITS:
             if s != sid:
                 continue
             u = {"n": len(units) + 1, "orig": ota, "tr": tr, "en": en}
@@ -108,17 +116,19 @@ def main():
                 u["note"] = note
             units.append(u)
         sections.append({"id": sid, "titel": titel, "zk": zk, "blurb": blurb, "units": units})
-    sections[0]["units"][0]["label"] = True
+    for sec in sections:
+        if sec["units"][0]["orig"].startswith("("):
+            sec["units"][0]["label"] = True
     doc = {
         "id": "pecevi",
-        "titel": "Peçevî: The Rout of the Imperial Fleet",
+        "titel": "Peçevî: Cyprus, Lepanto and the New Fleet",
         "autor": "İbrahim Peçevî (1574–c. 1650)",
         "jahr": "c. 1640 (printed 1866)",
         "sprache": "en",
         "orig_sprache": "ota",
         "zk": "Peç.",
-        "quelle": "İbrahim Peçevî, Tarih-i Peçevî, vol. I (Istanbul: Matbaa-i Âmire, 1283/1866), pp. 495–499; Internet Archive tarihipeevi01peuoft (University of Toronto), leaves 14–10 (the scan runs back to front: printed page = 509 − leaf).",
-        "hinweis": "The first Ottoman voice in this apparatus. Peçevî, born in 1574 in Pécs, wrote his history in the 1640s from earlier chronicles and from what older men told him; he did not see the battle, but he visited its place. The Ottoman text is transcribed by eye from the page images of the 1866 print, since the OCR cannot read the type; the print has no punctuation, and the division into units is the site's. The transliteration follows the usual simplified Turkish scholarly style; it and the English are this site's working versions (CC0), not a critical edition. Uncertain readings are marked [?] in the transliteration and explained in the notes. The chapter speaks of 'infidels' and 'the people of Islam' as the Venetian and Spanish sources speak of 'Turks' and 'Christians': the words are the documents', not the site's.",
+        "quelle": "İbrahim Peçevî, Tarih-i Peçevî, vol. I (Istanbul: Matbaa-i Âmire, 1283/1866), pp. 486–491 and 495–499; Internet Archive tarihipeevi01peuoft (University of Toronto), leaves 23–18 and 14–10 (the scan runs back to front: printed page = 509 − leaf). The chapter on Tunis between them (pp. 491–495) is not carried.",
+        "hinweis": "The first Ottoman voice in this apparatus. Peçevî, born in 1574 in Pécs, wrote his history in the 1640s from earlier chronicles and from what older men told him; he saw neither the siege nor the battle; he visited the place of the battle, and for Cyprus he follows the historian Mustafa Âlî, who was present at the conquest. The Ottoman text is transcribed by eye from the page images of the 1866 print, since the OCR cannot read the type; the print has no punctuation, and the division into units is the site's. The transliteration follows the usual simplified Turkish scholarly style; it and the English are this site's working versions (CC0), not a critical edition. Uncertain readings are marked [?] in the transliteration and explained in the notes. The chapters speak of 'infidels' and 'the people of Islam' as the Venetian and Spanish sources speak of 'Turks' and 'Christians': the words are the documents', not the site's.",
         "rtl": True,
         "sections": sections,
     }
