@@ -32,9 +32,9 @@
    "datei": "katib",
    "line": "ottoman",
    "side": "ottoman",
-   "kurz": "Kâtip Çelebi: the broken fleet",
+   "kurz": "Kâtip Çelebi: the broken fleet and Tunis",
    "zk": "Tuhfe",
-   "warum": "The Ottoman naval history of 1656, from the first Ottoman press (1729), in Ottoman Turkish with transliteration and a working translation: the League's fleet as the Ottomans counted it, Uluç Ali's warning against the galleasses and the lanterns, the Bloody Cape, the dead by name, a moral for commanders, the new fleet and a quarrel with Peçevî over who paid, and the Ottoman side of Modon (1572) and of Venice's peace (1573)."
+   "warum": "The Ottoman naval history of 1656, from the first Ottoman press (1729), in Ottoman Turkish with transliteration and a working translation: the League's fleet as the Ottomans counted it, Uluç Ali's warning against the galleasses and the lanterns, the Bloody Cape, the dead by name, a moral for commanders, the new fleet and a quarrel with Peçevî over who paid, and the Ottoman side of Modon (1572) and of Venice's peace (1573). And the end of the war in 1574: La Goleta stormed and blown up, the Bastion of Tunis taken."
   },
   {
    "id": "cervantes",
@@ -125,8 +125,8 @@
    "line": "ottoman",
    "side": "ottoman",
    "kurz": "More Ottoman voices",
-   "warum": "Peçevî and Kâtip Çelebi are carried; the gap is narrower, not closed. Next candidates: the Tuhfe's chapter on La Goleta and Tunis (1574), which follows directly; Selânikî's chronicle; and the imperial orders of the Mühimme registers. All without public-domain English, all to be carried in the same way: the printed Ottoman text, a transliteration and a working translation.",
-   "quelle": "Tuhfetü'l-kibâr (1729) ff. 45r ff., Internet Archive McGillLibrary-104394-279; Selânikî, Tarih (Istanbul 1281/1864)."
+   "warum": "Peçevî and Kâtip Çelebi are carried, from the fetva of 1570 to the fall of Tunis in 1574; the gap is narrower, not closed. Next candidates: Selânikî's chronicle, an eyewitness at the Porte, and the imperial orders of the Mühimme registers. Both without public-domain English, both to be carried in the same way: the printed Ottoman text, a transliteration and a working translation.",
+   "quelle": "Selânikî, Tarih (Istanbul 1281/1864); Mühimme registers in modern facsimile editions (copyright to be checked)."
   }
  ]
 }

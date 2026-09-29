@@ -1,10 +1,11 @@
-"""Build data/katib.json: Kâtip Çelebi on Lepanto, the new fleet and 1572–73.
+"""Build data/katib.json: Kâtip Çelebi on Lepanto, the new fleet, 1572–73 and Tunis 1574.
 
 Source: Kâtip Çelebi (Hacı Halife, 1609–1657), Tuhfetü'l-kibâr fî esfâri'l-bihâr
 (Istanbul: İbrahim Müteferrika, 1141/1729), ff. 42r (foot)–45r (top), the
 sections from "(سفر صنغین دوننما)", the campaign of the broken fleet, to the
 return of the fleet in Receb 981 (1573). Internet Archive McGillLibrary-104394-279
-(McGill University Library). The scan's page index n relates to the folio
+(McGill University Library). The chapter on La Goleta and Tunis (ff. 45r–45v)
+is kept in tools/katib_tunis.py. The scan's page index n relates to the folio
 as n = 2 × (folio + 3) for a recto: f. 42r is n90, f. 45r is n96. Public domain.
 
 The OCR cannot read Müteferrika's type, so the text was transcribed by eye from
@@ -15,7 +16,11 @@ style) and the English are this site's working versions (CC0). Uncertain
 readings are marked [?] in the transliteration and named in the notes.
 """
 import json
+import sys
 from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from katib_tunis import TUNIS  # noqa: E402
 
 OUT = Path(__file__).resolve().parent.parent / "data" / "katib.json"
 
@@ -100,7 +105,7 @@ UNITS = [
   "سفر پیاله پاشا و صلح وندیك كفار سابقا دوننمایی بوزمغله زیاده مغرور اولوب متونده دخی بی باك و بی پروا دوننمای همایون اوزرینه كلمكله دریای حمیت پادشاهی تموج ایدوب اخذ انتقام ایچون تكرار مستوفی كمیلر احضاری بابنده فرمان همایون صادر اولمغله مجددا كمیلر یاپلوب وزیر دلیر پیاله پاشا سردار تعیین بیورلدی طقوزیوز سكسن بر صفرینك ایكنجی كونی وافر عسكر ایله مملو ایكیوز اللی سكز قدرغه و اون ایكی ماونه ایله كفار خاكسار دوننماسنه مقابله ایچون چقوب اولونه‌دن [؟] ینه سواحلنه واردیلر اغر دوننما چقدوغن كفار اشیدوب حركته مجاللری اولمامغله پیاله پاشا و علی پاشا چكدروب پولیه یقالرینه واروب برقاچ پاره حربی قلعه‌لرینی الوب غارت ایتدكدنصكره وندیكك النده اولان كنارلره هجوم صددنده ایكن آستانه‌دن احكام شریفه وارد اولوب مفهومنده وندیك بكلری ایلچی كوندروب شمدی‌یه دك ظهوره كلن جرایم كذشته‌لرندن اعتذار و عبودیت اظهار ایلمكله استراحت رعایا و عسكر ایچون مضی ما مضی مفهومی اوزره [؟] الصلح خیر منطوقنجه صلح اولنوب مملكتلرینه امان همایون احسان اولنمشدر كركدر كه من بعد وندیك توابعی اولان ممالكی نهب و غارت ایلمیه‌سز انجق اسپانیا حكمنده اولان ولایاتی تخریبه بذل قدرت ایده‌سز دیو فرمان اولنمغله سردار و قپودان چیچلیه و انابولی سمتنه كیتمكه نیت ایتدیلر لكن شدید و مخالف یللر اسوب برقاچ كمیلر دخی شدت روزكاردن هلاك اولمغله دریا زمانی كچوب دره دولته عودت ایتدیلر و رجبده كلوب ترسانهٔ عامره‌یه كیردیلر",
   "Sefer-i Piyâle Paşa ve sulh-ı Venedik: Küffâr sâbıkâ donanmayı bozmağla ziyâde mağrûr olup Moton'da dahi bî-bâk ve bî-pervâ donanma-yı hümâyûn üzerine gelmekle, deryâ-yı hamiyyet-i pâdişâhî temevvüc idüp ahz-ı intikâm içün tekrâr müstevfî gemiler ihzârı bâbında fermân-ı hümâyûn sâdır olmağla mücedded gemiler yapılup vezîr-i dilîr Piyâle Paşa serdâr ta'yîn buyuruldı. Dokuzyüz seksen bir Safer'inin ikinci güni vâfir asker ile memlû ikiyüz elli sekiz kadırga ve on iki mavna ile küffâr-ı hâksâr donanmasına mukâbele içün çıkup Avlonya'dan [?] yine sevâhiline vardılar. Ağır donanma çıkduğın küffâr işidüp harekete mecâlleri olmamağla Piyâle Paşa ve Ali Paşa çekdirüp Pulya yakalarına varup birkaç pâre harbî kal'elerini alup ğâret itdikden sonra, Venedik'in elinde olan kenârlara hücûm sadedinde iken Âsitâne'den ahkâm-ı şerîfe vârid olup; mefhûmunda: 'Venedik beğleri ilçi gönderüp şimdiye dek zuhûra gelen cerâ'im-i güzeştelerinden i'tizâr ve ubûdiyyet izhâr eylemekle, istirâhat-i re'âyâ ve asker içün \"mazâ mâ mazâ\" mefhûmı üzre [?] \"es-sulhu hayr\" mantûkınca sulh olunup memleketlerine amân-ı hümâyûn ihsân olunmışdur. Gerekdür ki min-ba'd Venedik tevâbi'i olan memâliki nehb ü ğâret eylemeyesiz; ancak İspanya hükminde olan vilâyâtı tahrîbe bezl-i kudret idesiz' deyü fermân olunmağla, serdâr ve kapudan Çiçilya ve Anapoli semtine gitmeğe niyyet itdiler. Lâkin şedîd ve muhâlif yeller esüp birkaç gemiler dahi şiddet-i rüzgârdan helâk olmağla deryâ zamânı geçüp der-i devlete avdet itdiler, ve Receb'de gelüp Tersâne-i Âmire'ye girdiler.",
   "The campaign of Piyale Pasha, and the peace with Venice. Since the infidels had grown very proud at having broken the fleet before, and at Moton too had come against the imperial fleet heedless and unafraid, the sea of the Padishah's zeal surged, and an imperial order was issued to make ready a full fleet again to take revenge. New ships were built, and the valiant vizier Piyale Pasha was appointed commander. On the second day of Safar 981 he put out with two hundred and fifty-eight galleys and twelve galleasses, full of soldiers, to meet the fleet of the despicable infidels, and they came from Avlonya [?] again to the coasts. When the infidels heard that a heavy fleet had come out they had no strength to move, and Piyale Pasha and Ali Pasha rowed across to the shores of Apulia, took and plundered several enemy fortresses; and they were about to fall on the coasts held by Venice when noble orders arrived from the Threshold, to this effect: 'The lords of Venice have sent an envoy, excused themselves for the offences committed until now and professed their submission. For the repose of the subjects and the army, in the sense of \"let bygones be bygones\" and according to the words \"peace is better\", peace has been made and the imperial safe-conduct granted to their lands. Henceforth you must not plunder or raid the lands subject to Venice; but you shall do all you can to lay waste the lands under Spanish rule.' So the commander and the Kapudan meant to go toward Sicily and Naples; but violent contrary winds blew, several ships were lost in the storms, the sailing season passed, and they returned to the Porte, coming into the Imperial Arsenal in Receb.",
-  "Two Safar 981 is 3 June 1573. The peace was signed at Istanbul on 7 March 1573, before the fleet sailed; Kâtip Çelebi tells it as the order that reached the commanders at sea. It is the peace the League's article forbade (Liga Faith [6]) and Ebussuud's fetva had set the terms for (Peç. Cyprus [4]): Venice asks pardon, keeps its other lands and gives up Cyprus, and the Ottoman fleet is turned against Spain. 'Peace is better' is Qur'an 4:128. A word between the two phrases is not read, and the place from which the fleet sailed is uncertain. The next section of the Tuhfe, on La Goleta and Tunis (1574), follows on the same page."),
+  "Two Safar 981 is 3 June 1573. The peace was signed at Istanbul on 7 March 1573, before the fleet sailed; Kâtip Çelebi tells it as the order that reached the commanders at sea. It is the peace the League's article forbade (Liga Faith [6]) and Ebussuud's fetva had set the terms for (Peç. Cyprus [4]): Venice asks pardon, keeps its other lands and gives up Cyprus, and the Ottoman fleet is turned against Spain. 'Peace is better' is Qur'an 4:128. A word between the two phrases is not read, and the place from which the fleet sailed is uncertain. The chapter on La Goleta and Tunis (1574) follows on the same page (Tuhfe Tunis)."),
 ]
 
 SECTIONS = [
@@ -110,6 +115,8 @@ SECTIONS = [
    "Uluç Ali made Kapudan and renamed Kılıç, a hundred and fifty galleys and eight galleasses built in a winter, Sokollu's anchors of silver taken from Peçevî, and a historian's dispute with his source over who paid."),
   ("after", "1572 and 1573: Modon and the peace (ff. 44v–45r)", "Tuhfe 1572–73",
    "The Ottoman side of the League's last campaigns: Kılıç Ali declining battle off Navarino and sheltering under the guns of Modon, and Piyale Pasha's cruise of 1573 cut short by the order announcing Venice's peace, with the fleet turned against Spain."),
+  ("tunis", "La Goleta and Tunis, 1574 (f. 45r–v)", "Tuhfe Tunis",
+   "The end of the war, from the Ottoman side: Sinan Pasha and Kılıç Ali sail with the largest fleet yet, take La Goleta by storm after thirty-three days, carry off five hundred Spanish guns that still lay at Tophane in the author's day, blow the fortress into the air and take the new Bastion of Tunis. It is the same siege Cervantes's captive saw from the Ottoman oars."),
 ]
 
 
@@ -117,7 +124,7 @@ def main():
     sections = []
     for sid, titel, zk, blurb in SECTIONS:
         units = []
-        for s, label, ota, tr, en, note in UNITS:
+        for s, label, ota, tr, en, note in UNITS + TUNIS:
             if s != sid:
                 continue
             u = {"n": len(units) + 1, "orig": ota, "tr": tr, "en": en}
@@ -127,17 +134,19 @@ def main():
                 u["note"] = note
             units.append(u)
         sections.append({"id": sid, "titel": titel, "zk": zk, "blurb": blurb, "units": units})
-    sections[0]["units"][0]["label"] = True
+    for sec in sections:
+        if sec["units"][0]["orig"].startswith("("):
+            sec["units"][0]["label"] = True
     doc = {
         "id": "katib",
-        "titel": "Kâtip Çelebi: The Broken Fleet",
+        "titel": "Kâtip Çelebi: The Broken Fleet and Tunis",
         "autor": "Kâtip Çelebi (1609–1657)",
         "jahr": "1656 (printed 1729)",
         "sprache": "en",
         "orig_sprache": "ota",
         "zk": "Tuhfe",
-        "quelle": "Kâtip Çelebi, Tuhfetü'l-kibâr fî esfâri'l-bihâr (Istanbul: İbrahim Müteferrika, 1141/1729), ff. 42r–45r; Internet Archive McGillLibrary-104394-279 (McGill University Library), scan pages n90–n96 (for a recto, n = 2 × (folio + 3)).",
-        "hinweis": "The second Ottoman voice in this apparatus, and the first printed one: the Tuhfe was among the first books from the Ottoman press of İbrahim Müteferrika. Kâtip Çelebi, a clerk of the army and the greatest Ottoman scholar of his century, wrote this history of the naval wars in 1656, during the war of Crete, to teach commanders. For Lepanto he follows Peçevî (and names him once, to disagree), but he adds the Christian order of battle, the names of the dead, a judgement on the defeat and the campaigns of 1572 and 1573. The text is transcribed by eye from the page images, since the OCR cannot read the type; the print has no punctuation, and the division into units is the site's. The transliteration follows the usual simplified Turkish scholarly style; it and the English are this site's working versions (CC0), not a critical edition. Many proper names in the order of battle and the list of the dead are uncertain in reading; they are marked [?] and not forced into identifications. The words 'infidels' and 'people of Islam' are the document's, as 'Turks' and 'Christians' are the Venetian and Spanish sources'.",
+        "quelle": "Kâtip Çelebi, Tuhfetü'l-kibâr fî esfâri'l-bihâr (Istanbul: İbrahim Müteferrika, 1141/1729), ff. 42r–45v; Internet Archive McGillLibrary-104394-279 (McGill University Library), scan pages n90–n97 (for a recto, n = 2 × (folio + 3)).",
+        "hinweis": "The second Ottoman voice in this apparatus, and the first printed one: the Tuhfe was among the first books from the Ottoman press of İbrahim Müteferrika. Kâtip Çelebi, a clerk of the army and the greatest Ottoman scholar of his century, wrote this history of the naval wars in 1656, during the war of Crete, to teach commanders. For Lepanto he follows Peçevî (and names him once, to disagree), but he adds the Christian order of battle, the names of the dead, a judgement on the defeat and the campaigns of 1572 and 1573, and the Ottoman reconquest of Tunis in 1574, where the war ends. The text is transcribed by eye from the page images, since the OCR cannot read the type; the print has no punctuation, and the division into units is the site's. The transliteration follows the usual simplified Turkish scholarly style; it and the English are this site's working versions (CC0), not a critical edition. Many proper names in the order of battle and the list of the dead are uncertain in reading; they are marked [?] and not forced into identifications. The words 'infidels' and 'people of Islam' are the document's, as 'Turks' and 'Christians' are the Venetian and Spanish sources'.",
         "rtl": True,
         "sections": sections,
     }

@@ -7,7 +7,7 @@ Stage 1 (September 2026) carries six modules:
 - **The capitulations of the Holy League** (Rome, May 1571) — the treaty in a Spanish copy printed by Dumont (1728), transcribed from the page images, with a working translation.
 - **The loss of Famagusta** — Nestore Martinengo's report in William Malim's English (1572), with Malim's dedication, his description of Cyprus and his Latin prayer (transcribed from the page, with a working translation), from Hakluyt vol. V (1904).
 - **Peçevî: Cyprus, Lepanto and the new fleet** — the Ottoman historian's chapters on the conquest of Cyprus (with Ebussuud's fetva and the surrender of Famagusta) and on the battle and the new fleet, *Tarih-i Peçevî* vol. I (Istanbul 1866), pp. 486–491 and 495–499, transcribed by eye from the printed Ottoman text, with a transliteration and a working translation.
-- **Kâtip Çelebi: the broken fleet** — the Ottoman naval history *Tuhfetü'l-kibâr* (1656; Istanbul: Müteferrika, 1729), ff. 42r–45r, on Lepanto, the new fleet, Modon (1572) and Venice's peace (1573), transcribed by eye with a transliteration and a working translation.
+- **Kâtip Çelebi: the broken fleet** — the Ottoman naval history *Tuhfetü'l-kibâr* (1656; Istanbul: Müteferrika, 1729), on Lepanto, the new fleet, Modon (1572), Venice's peace (1573) and the fall of La Goleta and Tunis (1574), ff. 42r–45v, transcribed by eye with a transliteration and a working translation.
 - **Cervantes: the captive's Lepanto** — *Don Quixote* I.39 and the prologue to Part II, Spanish and Ormsby's English (1885).
 - **Chesterton: Lepanto** (1911), as reception.
 
