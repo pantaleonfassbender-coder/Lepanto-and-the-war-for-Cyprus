@@ -1,0 +1,173 @@
+{
+ "lede": "From the accession of Selim II to the loss of La Goleta, and then the long afterlife in print. Dates follow the documents carried here; where modern accounts differ, the entry says so.",
+ "stations": [
+  {
+   "y": 1566,
+   "d": "September 1566",
+   "side": "ottoman",
+   "titel": "Selim II succeeds Süleyman",
+   "text": "The new sultan inherits Sokollu Mehmed Pasha as grand vizier. Cyprus, a Venetian island between Anatolia, Syria and Egypt, lies inside the Ottoman sea.",
+   "plate": "selim"
+  },
+  {
+   "y": 1570.2,
+   "d": "Spring 1570",
+   "side": "ottoman",
+   "titel": "The demand for Cyprus",
+   "text": "An Ottoman envoy demands the island; Venice refuses. Malim sets out both titles to the island: Venice's by the adoption of Caterina Cornaro, Selim's 'in the right of the Soldan of Ægypt'.",
+   "cite": "#/text/famagusta/cyprus",
+   "citeLabel": "Fam. Cyp."
+  },
+  {
+   "y": 1570.5,
+   "d": "July 1570",
+   "side": "ottoman",
+   "titel": "The landing on Cyprus",
+   "text": "Lala Mustafa Pasha lands on the island with the army that will take both its fortresses."
+  },
+  {
+   "y": 1570.7,
+   "d": "9 September 1570",
+   "side": "ottoman",
+   "titel": "Nicosia falls",
+   "text": "The capital is stormed after a seven-week siege. A Christian relief fleet, gathered too late and divided in its command, turns back that autumn."
+  },
+  {
+   "y": 1571.1,
+   "d": "January–February 1571",
+   "side": "venice",
+   "titel": "Reinforcements for Famagusta",
+   "text": "A Venetian squadron runs men and supplies into the last fortress; 'the sixteenth day of February' it sails again, leaving about four thousand foot and eight hundred picked soldiers.",
+   "cite": "#/text/famagusta/report/2",
+   "citeLabel": "Fam. Rep. [2]"
+  },
+  {
+   "y": 1571.4,
+   "d": "20–25 May 1571",
+   "side": "papacy",
+   "titel": "The Holy League",
+   "text": "Pius V, Philip II and Venice sign the league in Rome; it is proclaimed in St Peter's. In London a year later Malim prays for 'the covenant the Christian monarchs have struck'.",
+   "cite": "#/text/famagusta/precatio",
+   "citeLabel": "Fam. Prec.",
+   "plate": "pius"
+  },
+  {
+   "y": 1571.47,
+   "d": "21 June – 31 July 1571",
+   "side": "venice",
+   "titel": "Six assaults on Famagusta",
+   "text": "Mines, batteries and six general assaults, repulsed one by one while the powder runs down to seven barrels.",
+   "cite": "#/text/famagusta/report",
+   "citeLabel": "Fam. Rep.",
+   "plate": "baglione"
+  },
+  {
+   "y": 1571.58,
+   "d": "August 1571",
+   "side": "ottoman",
+   "titel": "Surrender, and the killing of the commanders",
+   "text": "Famagusta surrenders on terms. In Mustafa's tent the commanders are seized and killed; Bragadin is mutilated and later flayed alive. Martinengo, the report's author, sells himself as a slave to save his life. Martinengo dates the handing over to 15 August; modern accounts put the surrender at the start of the month and Bragadin's death on the 17th.",
+   "cite": "#/text/famagusta/report",
+   "citeLabel": "Fam. Rep."
+  },
+  {
+   "y": 1571.65,
+   "d": "August–September 1571",
+   "side": "spain",
+   "titel": "The fleet gathers at Messina",
+   "text": "Don John of Austria arrives in Messina and joins the Venetian and papal squadrons; the combined fleet sails in mid-September.",
+   "cite": "#/text/cervantes/captive",
+   "citeLabel": "DQ I.39",
+   "plate": "donjohn"
+  },
+  {
+   "y": 1571.77,
+   "d": "7 October 1571",
+   "side": "league",
+   "titel": "Lepanto",
+   "text": "At the mouth of the Gulf of Patras the League's fleet destroys the Ottoman fleet of Müezzinzade Ali Pasha. Uluç Ali escapes with his squadron. Cervantes is wounded; the captive of his novel is taken prisoner.",
+   "cite": "#/text/cervantes/captive",
+   "citeLabel": "DQ I.39",
+   "plate": "venier"
+  },
+  {
+   "y": 1572.1,
+   "d": "Winter 1571–72",
+   "side": "ottoman",
+   "titel": "A new fleet",
+   "text": "Under Sokollu and Uluç Ali (now Kılıç Ali Pasha) the Ottoman arsenals build a new fleet in a single season.",
+   "plate": "sokollu"
+  },
+  {
+   "y": 1572.3,
+   "d": "March–May 1572",
+   "side": "papacy",
+   "titel": "Malim's translation; the death of Pius V",
+   "text": "Malim dates his dedication from Lambeth, 23 March 1572. Pius V dies on 1 May; he had instituted a feast of Our Lady of Victory for the anniversary of the battle.",
+   "cite": "#/text/famagusta/dedication",
+   "citeLabel": "Fam. Ded.",
+   "plate": "medal"
+  },
+  {
+   "y": 1572.75,
+   "d": "Autumn 1572",
+   "side": "league",
+   "titel": "Navarino and Modon",
+   "text": "The League's second campaign finds the Ottoman fleet in harbour and fails to bring it to battle. 'There I saw and observed how the opportunity … was lost.'",
+   "cite": "#/text/cervantes/captive",
+   "citeLabel": "DQ I.39"
+  },
+  {
+   "y": 1573.2,
+   "d": "7 March 1573",
+   "side": "venice",
+   "titel": "Venice makes a separate peace",
+   "text": "Venice gives up Cyprus and pays an indemnity. 'He made peace with the Venetians (who were much more eager for it than he was).'",
+   "cite": "#/text/cervantes/captive",
+   "citeLabel": "DQ I.39"
+  },
+  {
+   "y": 1573.8,
+   "d": "October 1573",
+   "side": "spain",
+   "titel": "Don John takes Tunis",
+   "text": "A Spanish success without the League, and a short-lived one.",
+   "cite": "#/text/cervantes/captive",
+   "citeLabel": "DQ I.39"
+  },
+  {
+   "y": 1574.65,
+   "d": "August–September 1574",
+   "side": "ottoman",
+   "titel": "La Goleta and Tunis fall",
+   "text": "The Ottoman fleet takes La Goleta and the new fort at Tunis. The captive at the oar: 'as if to make that eternal … these stones were needed to support it.'",
+   "cite": "#/text/cervantes/captive",
+   "citeLabel": "DQ I.39"
+  },
+  {
+   "y": 1591,
+   "d": "1591",
+   "side": "reception",
+   "titel": "James VI's Lepanto",
+   "text": "The King of Scots prints his heroic poem on the battle; reprinted in London in 1603 as 'His Majesties Lepanto'. (Named, not yet carried.)"
+  },
+  {
+   "y": 1605,
+   "d": "1605 / 1615",
+   "side": "reception",
+   "titel": "Don Quixote",
+   "text": "The captive's tale in Part I; in the prologue to Part II Cervantes defends the hand lost 'on the grandest occasion the past or present has seen'.",
+   "cite": "#/text/cervantes/prologue",
+   "citeLabel": "DQ II Prol."
+  },
+  {
+   "y": 1911,
+   "d": "1911",
+   "side": "reception",
+   "titel": "Chesterton's Lepanto",
+   "text": "The crusading ballad that fixed the battle in English memory, a year before the Balkan wars.",
+   "cite": "#/text/chesterton",
+   "citeLabel": "Chest."
+  }
+ ]
+}

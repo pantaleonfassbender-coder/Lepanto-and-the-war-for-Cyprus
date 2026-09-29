@@ -1,0 +1,3 @@
+# downloaded OCR and ebook sources (the build scripts fetch them)
+tools/src/
+__pycache__/

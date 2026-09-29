@@ -1,0 +1,42 @@
+{
+ "shipped": [
+  {"id": "famagusta", "datei": "famagusta", "line": "cyprus", "side": "venice",
+   "kurz": "The loss of Famagusta", "zk": "Fam.",
+   "warum": "The siege seen from inside the walls by an officer who survived it, in the English of 1572: six assaults, the surrender on terms, the killings in Mustafa's tent, the flaying of Bragadin, the author's escape. With the translator's dedication, his description of Cyprus and his Latin prayer for the League."},
+  {"id": "cervantes", "datei": "cervantes", "line": "reception", "side": "spain",
+   "kurz": "Cervantes: the captive's Lepanto", "zk": "DQ",
+   "warum": "A veteran's fiction of his own war, in Spanish and English: the league, the day that broke the belief in Turkish invincibility at sea, capture, Navarino, Venice's peace, La Goleta. And the lost hand, 'on the grandest occasion'."},
+  {"id": "chesterton", "datei": "chesterton", "line": "reception", "side": "reception",
+   "kurz": "Chesterton: Lepanto", "zk": "Chest.",
+   "warum": "The ballad of 1911 that made the battle an English crusading legend, carried as reception, with its prejudices named."}
+ ],
+ "planned": [
+  {"id": "liga", "line": "league", "side": "papacy", "kurz": "The capitulations of the Holy League (1571)",
+   "warum": "The treaty itself: who pays what share, who commands, what happens to conquests, and how long the alliance was meant to last. Latin, with a working translation.",
+   "quelle": "Latin text in J. Dumont, Corps universel diplomatique, vol. V (Amsterdam, 1728), on the Internet Archive (Google scans); the volume and pages are still to be confirmed."},
+  {"id": "herrera", "line": "battle", "side": "spain", "kurz": "Fernando de Herrera, Relación de la guerra de Cipre (Seville, 1572)",
+   "warum": "The first Castilian history of the war, written within months, by the poet of Seville. Spanish, with a working translation of the battle chapters.",
+   "quelle": "Seville: Alonso Escribano, 1572; Biblioteca Nacional de España R/3794, digitised by the Biblioteca Virtual Miguel de Cervantes."},
+  {"id": "contarini", "line": "battle", "side": "venice", "kurz": "Giovanni Pietro Contarini, Historia delle cose successe (Venice, 1572)",
+   "warum": "The Venetian history of the war, with the order of battle ship by ship. Italian, with a working translation.",
+   "quelle": "Venice: Francesco Rampazetto, 1572; several full-view copies on Google Books."},
+  {"id": "memoria", "line": "battle", "side": "league", "kurz": "Memoria della felicissima vittoria (1571)",
+   "warum": "A news print of the victory, published in the weeks after the battle: how the news reached the public.",
+   "quelle": "Internet Archive bub_gb_zJ_APOa7Q7IC (1571)."},
+  {"id": "knolles", "line": "battle", "side": "reception", "kurz": "Richard Knolles, The Generall Historie of the Turkes (London, 1603)",
+   "warum": "The English history of the Ottoman state, with a full account of the Cyprus war and the battle. Early modern English; the OCR needs repair (long s, running side notes).",
+   "quelle": "Internet Archive b30332989 (edition of 1638)."},
+  {"id": "pius", "line": "league", "side": "papacy", "kurz": "Pius V and the feast of the victory (1572)",
+   "warum": "The bull that turned the anniversary of the battle into a feast of the Church, the start of Lepanto's afterlife in liturgy. Latin, with a working translation.",
+   "quelle": "Bullarum … Romanorum pontificum Taurinensis editio, vol. VII (Turin, 1862), on the Internet Archive; the bull is still to be located."},
+  {"id": "relazioni", "line": "diplomacy", "side": "venice", "kurz": "Venetian ambassadors' reports from Constantinople",
+   "warum": "The baili's reports to the Senate, the nearest thing to an inside view of the Ottoman court in these years, including the peace of 1573. Italian, with a working translation.",
+   "quelle": "E. Albèri, Relazioni degli ambasciatori veneti al Senato, series III (Florence, 1840–55), on the Internet Archive."},
+  {"id": "james", "line": "reception", "side": "reception", "kurz": "James VI, Lepanto (Edinburgh 1591; London 1603)",
+   "warum": "A protestant king's heroic poem on a Catholic victory, and his preface explaining why he wrote it.",
+   "quelle": "Early English Books scan on the Internet Archive (1603)."},
+  {"id": "ottoman", "line": "ottoman", "side": "ottoman", "kurz": "Ottoman voices",
+   "warum": "The site's acknowledged gap. The Ottoman chroniclers of the war (Selânikî, Peçevî) and the imperial orders of the Mühimme registers have no public-domain English translation. Options: a working translation from the printed Ottoman texts, or Hammer-Purgstall's German history of 1827–35, which paraphrases them, carried and labelled as a mediated voice. Until then the Ottoman side is seen only through Venetian, Spanish and English eyes, and every module says so.",
+   "quelle": "To be decided."}
+ ]
+}
