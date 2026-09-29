@@ -1,6 +1,6 @@
-# Lepanto 1570–1573 — The War of Cyprus and the Holy League
+# Lepanto and the War for Cyprus
 
-A documentary apparatus for the war of 1570–1573: public-domain sources from the siege of Famagusta to the battle of Lepanto and its afterlife, with readers (original beside English), a timeline linked into the texts, and plates from the prints of the time.
+A documentary apparatus for the war for Cyprus and the Holy League, 1570–1573: public-domain sources from the siege of Famagusta to the battle of Lepanto and its afterlife, with readers (original beside English), a timeline linked into the texts, and plates from the prints of the time.
 
 Stage 1 (September 2026) carries four modules:
 
