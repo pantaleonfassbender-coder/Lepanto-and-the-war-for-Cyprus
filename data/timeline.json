@@ -89,10 +89,19 @@
    "d": "7 October 1571",
    "side": "league",
    "titel": "Lepanto",
-   "text": "At the mouth of the Gulf of Patras the League's fleet destroys the Ottoman fleet of Müezzinzade Ali Pasha. Uluç Ali escapes with his squadron. Cervantes is wounded; the captive of his novel is taken prisoner. From the Ottoman side, Peçevî: the fleet sent out short of men, its commander bound by orders from Istanbul, and no such defeat 'since Noah invented the ship'. Kâtip Çelebi (1656) adds the Bloody Cape and a moral: commanders should not fight at sea as on land.",
-   "cite": "#/text/cervantes/captive",
-   "citeLabel": "DQ I.39",
-   "plate": "venier"
+   "text": "At the mouth of the Gulf of Patras, after the six Venetian galleasses have opened fire on the Ottoman line, the League's fleet destroys the Ottoman fleet of Müezzinzade Ali Pasha. Uluç Ali escapes with his squadron. Cervantes is wounded; the captive of his novel is taken prisoner. From the Ottoman side, Peçevî: the fleet sent out short of men, its commander bound by orders from Istanbul, and no such defeat 'since Noah invented the ship'. Kâtip Çelebi (1656) adds the Bloody Cape and a moral: commanders should not fight at sea as on land.",
+   "cite": "#/text/contarini/battle/10",
+   "citeLabel": "Contarini Battle [10]",
+   "plate": "map"
+  },
+  {
+   "y": 1571.8,
+   "d": "19 October 1571",
+   "side": "venice",
+   "titel": "The news reaches Venice",
+   "text": "Onfrè Giustinian's galley enters the lagoon dragging Turkish banners through the water; Te Deum in San Marco, an oration by Rasario three days later. The printed Lepanto begins: Contarini's history is on sale within months.",
+   "cite": "#/text/contarini/reckoning/6",
+   "citeLabel": "Contarini Reckoning [6]"
   },
   {
    "y": 1572.1,

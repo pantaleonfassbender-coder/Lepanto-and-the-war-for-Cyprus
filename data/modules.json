@@ -19,6 +19,15 @@
    "warum": "The siege seen from inside the walls by an officer who survived it, in the English of 1572: six assaults, the surrender on terms, the killings in Mustafa's tent, the flaying of Bragadin, the author's escape. With the translator's dedication, his description of Cyprus and his Latin prayer for the League."
   },
   {
+   "id": "contarini",
+   "datei": "contarini",
+   "line": "league",
+   "side": "venice",
+   "kurz": "Contarini: the councils and the battle",
+   "zk": "Contarini",
+   "warum": "The first history of the war, Venice 1572, in Italian with a working translation: the Ottoman council of war as the Venetians imagined it, with Uluç Ali pressing for battle; the convicts freed on the League's benches and the Christian slaves manacled on the Ottoman ones; the six galleasses; Barbarigo pinned against the shore; Ali Pasha's galley taken; Uluç Ali breaking through Doria's gap; the dead by trade; the spoils divided by the League's shares; the galley that brought the news to Venice."
+  },
+  {
    "id": "pecevi",
    "datei": "pecevi",
    "line": "ottoman",
@@ -71,14 +80,6 @@
    "kurz": "Fernando de Herrera, Relación de la guerra de Cipre (Seville, 1572)",
    "warum": "The first Castilian history of the war, written within months, by the poet of Seville. Spanish, with a working translation of the battle chapters.",
    "quelle": "Seville: Alonso Escribano, 1572; Biblioteca Nacional de España R/3794, digitised by the Biblioteca Virtual Miguel de Cervantes."
-  },
-  {
-   "id": "contarini",
-   "line": "battle",
-   "side": "venice",
-   "kurz": "Giovanni Pietro Contarini, Historia delle cose successe (Venice, 1572)",
-   "warum": "The Venetian history of the war, with the order of battle ship by ship. Italian, with a working translation.",
-   "quelle": "Venice: Francesco Rampazetto, 1572; several full-view copies on Google Books."
   },
   {
    "id": "memoria",

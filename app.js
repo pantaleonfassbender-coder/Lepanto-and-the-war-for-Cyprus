@@ -34,7 +34,7 @@ function route() {
   });
   view.innerHTML = "";
   window.scrollTo(0, 0);
-  const pages = { "": overview, texts, text: reader, timeline, plates, sources };
+  const pages = { "": overview, texts, text: reader, compare, timeline, plates, sources };
   (pages[page || ""] || overview)(args);
 }
 
@@ -67,7 +67,7 @@ function overview() {
     <div class="panel"><h3>What did the victory buy?</h3>
       <p>The captive of <em>Don Quixote</em> calls it the day the world learned the Turks were not invincible at sea, and then tells how the chance was lost at Navarino, how Venice made its peace, how La Goleta fell. <a href="#/text/cervantes/captive">DQ I.39</a></p></div>
     <div class="panel"><h3>Who writes the war?</h3>
-      <p>A Venetian officer who sold himself as a slave to survive; an English protestant who translated him for the Earl of Leicester; a Spanish veteran writing fiction; an Edwardian balladeer; and an Ottoman historian, born three years after the battle, who walked the shore where it was fought (<a href="#/text/pecevi/battle">Peç. Battle</a>). The Ottoman side is still the thinner one, as the <a href="#/sources">sources page</a> says.</p></div>
+      <p>A Venetian officer who sold himself as a slave to survive; a young Venetian patrician who wrote the first history of the war within months of the battle; an English protestant who translated him for the Earl of Leicester; a Spanish veteran writing fiction; an Edwardian balladeer; and an Ottoman historian, born three years after the battle, who walked the shore where it was fought (<a href="#/text/pecevi/battle">Peç. Battle</a>). The Ottoman side is still the thinner one, as the <a href="#/sources">sources page</a> says. <a href="#/compare">Compare</a> sets them side by side.</p></div>
     <div class="panel"><h3>What outlasts it?</h3>
       <p>Malim thinks letters outlast pyramids. Cervantes thinks a fortress's stones are not needed to keep a memory alive. The companion game <a href="https://la-mas-alta-ocasion.netlify.app/" target="_blank" rel="noopener"><em>La más alta ocasión</em></a> is built on these texts: you hold the League together as the Pope, and its accounting asks what the victory actually secured. It is also on <a href="https://leofassb.itch.io/la-mas-alta-ocasion" target="_blank" rel="noopener">itch.io</a>, with a <a href="https://leofassb.itch.io/la-mas-alta-ocasion/devlog" target="_blank" rel="noopener">devlog</a> on how it was tested.</p></div>
   </div>`;
@@ -133,6 +133,43 @@ async function reader([id, secId, unitN]) {
     route();
   });
   if (unitN) { const el = document.getElementById("u" + unitN); if (el) el.scrollIntoView({ block: "center" }); }
+}
+
+/* ------------------------------------------------------------ compare */
+let CMP = null;
+async function compare([pid]) {
+  if (!CMP) CMP = await getJSON("data/compare.json");
+  const pair = CMP.pairs.find(p => p.id === pid);
+  if (!pair) {
+    view.innerHTML = `
+      <span class="tag">Compare</span><h1>Two sides of one moment</h1>
+      <p class="lede">${esc(CMP.lede)}</p>
+      <div class="grid g2">${CMP.pairs.map(p => `<a class="card" href="#/compare/${p.id}">
+        <div>${p.voices.map(v => side((D.mods.shipped.find(m => m.id === v.text) || {}).side)).join(" ")}</div>
+        <h3>${esc(p.titel)}</h3><p class="fine">${esc(p.frage)}</p></a>`).join("")}</div>`;
+    return;
+  }
+  view.innerHTML = `<p class="fine"><a href="#/compare">← All comparisons</a></p><p class="fine">Loading…</p>`;
+  const docs = await Promise.all(pair.voices.map(v => {
+    const m = D.mods.shipped.find(x => x.id === v.text);
+    return text(m.datei).then(t => ({ v, m, t }));
+  }));
+  const col = ({ v, m, t }) => {
+    const sec = t.sections.find(s => s.id === v.sec);
+    const units = v.n.map(n => sec.units.find(u => u.n === n)).filter(Boolean);
+    return `<div class="voice">
+      <div class="vhead">${side(m.side)} <b>${esc(t.autor)}</b><br><span class="fine">${esc(t.jahr)} · ${esc(sec.titel)}</span></div>
+      ${units.map(u => `<div class="vunit">
+        <div class="fine"><a href="#/text/${m.id}/${sec.id}/${u.n}">${esc(sec.zk)} [${u.n}]</a>${u.titel ? ` · ${esc(u.titel)}` : ""}</div>
+        <div class="text">${esc(u.en)}</div></div>`).join("")}
+    </div>`;
+  };
+  view.innerHTML = `
+    <p class="fine"><a href="#/compare">← All comparisons</a></p>
+    <span class="tag">Compare</span><h1>${esc(pair.titel)}</h1>
+    <p class="lede">${esc(pair.frage)}</p>
+    <div class="panel readable"><p>${esc(pair.note)}</p></div>
+    <div class="cmp n${docs.length}">${docs.map(col).join("")}</div>`;
 }
 
 /* ------------------------------------------------------------ timeline */

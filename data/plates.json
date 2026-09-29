@@ -1,29 +1,68 @@
 {
- "credit": "All plates are wood-engraved reproductions of sixteenth-century prints, medals and woodcuts published in William Stirling-Maxwell, Don John of Austria, or Passages from the History of the Sixteenth Century, 1547–1578, vol. I (London: Longmans, Green, 1883), scanned by the Internet Archive from the University of Toronto copy (donjohnofaustria01stiruoft). Public domain; cropped and toned for this site.",
+ "credit": "All plates are wood-engraved reproductions of sixteenth-century prints, medals and woodcuts published in William Stirling-Maxwell, Don John of Austria, or Passages from the History of the Sixteenth Century, 1547–1578, vol. I (London: Longmans, Green, 1883), scanned by the Internet Archive from the University of Toronto copy (donjohnofaustria01stiruoft). Public domain; cropped and toned for this site. The map of the bay is from Contarini's Historia (Venice 1572), in the copy of the Bayerische Staatsbibliothek digitised by the Münchener DigitalisierungsZentrum.",
  "plates": [
-  {"id": "selim", "titel": "Sultan Selim II", "side": "ottoman",
+  {
+   "id": "selim",
+   "titel": "Sultan Selim II",
+   "side": "ottoman",
    "caption": "Selim II (r. 1566–1574), in whose name the war for Cyprus was opened. The legend gives the date of his accession, 23 September 1566.",
-   "source": "Stirling-Maxwell, vol. I, p. 289, after a print by Domenico Zenoi."},
-  {"id": "sokollu", "titel": "Mehmed Sokollu Pasha, grand vizier", "side": "ottoman",
+   "source": "Stirling-Maxwell, vol. I, p. 289, after a print by Domenico Zenoi."
+  },
+  {
+   "id": "sokollu",
+   "titel": "Mehmed Sokollu Pasha, grand vizier",
+   "side": "ottoman",
    "caption": "Sokollu Mehmed Pasha, grand vizier from 1565 to 1579, who had argued against the Cyprus war and then rebuilt the fleet in a single winter after its loss.",
-   "source": "Stirling-Maxwell, vol. I, p. 300, after J. Schrenck von Notzing, Augustissimorum imperatorum … imagines (Innsbruck, 1601)."},
-  {"id": "baglione", "titel": "Astorre Baglione", "side": "venice",
+   "source": "Stirling-Maxwell, vol. I, p. 300, after J. Schrenck von Notzing, Augustissimorum imperatorum … imagines (Innsbruck, 1601)."
+  },
+  {
+   "id": "baglione",
+   "titel": "Astorre Baglione",
+   "side": "venice",
    "caption": "Astorre Baglione, military commander at Famagusta, killed in Mustafa's tent after the surrender. 'THe lord Estor Baglione' heads Martinengo's roll of the slain.",
-   "source": "Stirling-Maxwell, vol. I, p. 313, after Schrenck, Imagines (Innsbruck, 1601)."},
-  {"id": "colonna", "titel": "Marcantonio Colonna", "side": "papacy",
+   "source": "Stirling-Maxwell, vol. I, p. 313, after Schrenck, Imagines (Innsbruck, 1601)."
+  },
+  {
+   "id": "colonna",
+   "titel": "Marcantonio Colonna",
+   "side": "papacy",
    "caption": "Marcantonio Colonna, commander of the papal galleys: MARCUS ANTONIUS COLUMNA PONT. CLASSIS PRAEFECT., dated 1569.",
-   "source": "Stirling-Maxwell, vol. I, p. 316, after a print dated 1569."},
-  {"id": "pius", "titel": "Pope Pius V", "side": "papacy",
+   "source": "Stirling-Maxwell, vol. I, p. 316, after a print dated 1569."
+  },
+  {
+   "id": "pius",
+   "titel": "Pope Pius V",
+   "side": "papacy",
    "caption": "Pius V (Michele Ghislieri, pope 1566–1572), who made the league of 1571 and died seven months after the battle.",
-   "source": "Stirling-Maxwell, vol. I, p. 326, after a print by Niccolò Nelli."},
-  {"id": "venier", "titel": "Sebastiano Venier", "side": "venice",
+   "source": "Stirling-Maxwell, vol. I, p. 326, after a print by Niccolò Nelli."
+  },
+  {
+   "id": "venier",
+   "titel": "Sebastiano Venier",
+   "side": "venice",
    "caption": "Sebastiano Venier, captain-general of the Venetian fleet at Lepanto, later doge: IL GENERAL VENETIANO I MARE NELLA GRA VITTORIA.",
-   "source": "Stirling-Maxwell, vol. I, p. 386, after a contemporary woodcut by Cesare Vecellio (British Museum)."},
-  {"id": "donjohn", "titel": "Don John of Austria", "side": "spain",
+   "source": "Stirling-Maxwell, vol. I, p. 386, after a contemporary woodcut by Cesare Vecellio (British Museum)."
+  },
+  {
+   "id": "donjohn",
+   "titel": "Don John of Austria",
+   "side": "spain",
    "caption": "Don John of Austria, captain-general of the League, in an architectural frame of emblems and allegories: a victory print, probably made at Venice about the time of the battle.",
-   "source": "Stirling-Maxwell, vol. I, p. 401, after a print probably executed at Venice about 1571."},
-  {"id": "medal", "titel": "The Lepanto medal of Pius V", "side": "papacy",
+   "source": "Stirling-Maxwell, vol. I, p. 401, after a print probably executed at Venice about 1571."
+  },
+  {
+   "id": "medal",
+   "titel": "The Lepanto medal of Pius V",
+   "side": "papacy",
    "caption": "Medal struck in honour of the victory: Pius V on the obverse, the two fleets engaged on the reverse.",
-   "source": "Stirling-Maxwell, vol. I, p. 448."}
+   "source": "Stirling-Maxwell, vol. I, p. 448."
+  },
+  {
+   "id": "map",
+   "titel": "The bay of Lepanto, 1572",
+   "side": "league",
+   "caption": "Map of the waters from Santa Maura to Modon, with the two fleets engaged off the Curzolari and the Ottoman line coming out of the gulf of Lepanto. Printed across two pages of Contarini's history, a few months after the battle.",
+   "source": "Contarini, Historia delle cose successe (Venice 1572), ff. 49v–50r; Bayerische Staatsbibliothek, 4 Eur. 134#Beibd.1, digitised by the MDZ (bsb10159111). Public domain."
+  }
  ]
 }
