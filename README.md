@@ -1,5 +1,7 @@
 # Lepanto and the War for Cyprus
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23048980.svg)](https://doi.org/10.5281/zenodo.23048980)
+
 A documentary apparatus for the war for Cyprus and the Holy League, 1570–1573: public-domain sources from the siege of Famagusta to the battle of Lepanto and its afterlife, with readers (original beside English), a timeline linked into the texts, and plates from the prints of the time.
 
 Stage 1 (September 2026) is complete with ten modules:
@@ -39,3 +41,7 @@ The scripts download their sources (Internet Archive OCR, Project Gutenberg text
 Any static server, e.g. `python -m http.server 8133`.
 
 Licences: see `LICENSES.md`.
+
+## Citation
+
+Fassbender, Pantaleon. *Lepanto and the War for Cyprus: A Documentary Apparatus, 1570–1573.* 2026. https://doi.org/10.5281/zenodo.23048980 (all versions; version 1.0.0: https://doi.org/10.5281/zenodo.23048981). Please also cite the printed source of any passage you quote.

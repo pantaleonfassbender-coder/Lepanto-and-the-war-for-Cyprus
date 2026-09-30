@@ -11,17 +11,16 @@ url: "https://lepanto-and-the-war-for-cyprus.netlify.app/"
 abstract: >-
   A documentary apparatus for the war for Cyprus and the Holy League,
   1570-1573, built from public-domain sources carried in full or in whole
-  sections, with the original beside the English: the capitulations of the
-  Holy League (Rome, May 1571) in the Spanish copy printed by Dumont,
-  transcribed from the page images, with a working translation; Nestore
-  Martinengo's report of the siege of Famagusta in William Malim's English
-  of 1572, with Malim's dedication, his description of Cyprus and his Latin
-  prayer; the captive's tale of Don Quixote I.39 and the prologue to Part II
-  in Spanish and English; and Chesterton's Lepanto as reception. With a
-  timeline linked into the texts and plates from Stirling-Maxwell's Don John
-  of Austria (1883). The Ottoman side has as yet no public-domain English
-  source and speaks here only through Venetian, Spanish and English writers,
-  a gap the apparatus names.
+  sections, with the original beside a working English translation: the
+  capitulations of the Holy League (1571); the Popes' documents after the
+  victory (Pius V, Gregory XIII); Martinengo's report of the siege of
+  Famagusta in Malim's English (1572); Contarini's Venetian history of the
+  councils and the battle (1572) with its map of the bay; Herrera's Spanish
+  account and song of victory (1572); the Ottoman historians Pecevi and
+  Katip Celebi, transcribed by eye from the printed Ottoman text with
+  transliteration; the separate peace of 1573 in its Venetian and Ottoman
+  versions; Cervantes and Chesterton as reception. With a timeline, plates
+  and a Compare page setting the sources side by side.
 keywords:
   - Lepanto
   - Holy League
@@ -29,8 +28,17 @@ keywords:
   - Famagusta
   - Ottoman Empire
   - Venice
+  - Ottoman historiography
   - digital humanities
   - early modern Mediterranean
 license: MIT
+doi: 10.5281/zenodo.23048980
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.23048980
+    description: "Concept DOI (all versions)"
+  - type: doi
+    value: 10.5281/zenodo.23048981
+    description: "Version 1.0.0"
 version: 1.0.0
 date-released: 2026-09-30
